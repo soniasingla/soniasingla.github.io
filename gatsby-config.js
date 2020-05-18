@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Personal Blog`,
+    title: `Sonia Singla`,
     author: {
       name: `Sonia Singla`,
-      summary: `, an outreachy intern with Mozilla 🦊, FOSS enthusiast and open web ❤️.`,
+      summary: `, an outreachy intern with Mozilla 🦊 FOSS enthusiast and open web ❤️.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
