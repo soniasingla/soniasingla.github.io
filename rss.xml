@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Personal Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 17 May 2020 22:04:19 GMT</lastBuildDate><item><title><![CDATA[An Introduction to Clojure, features, and usability]]></title><description><![CDATA[Clojure is a , , , and predominantly  from the Lisp family tree. It is completely dynamic, every feature supported by Clojure is supported…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/clojure-introduction-features/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/clojure-introduction-features/</guid><pubDate>Tue, 14 Apr 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Clojure is a &lt;code class=&quot;language-text&quot;&gt;general-purpose&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;dynamic&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;compiled&lt;/code&gt;, and predominantly &lt;code class=&quot;language-text&quot;&gt;functional programming language&lt;/code&gt; from the Lisp family tree. It is completely dynamic, every feature supported by Clojure is supported during runtime.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Personal Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 18 May 2020 16:49:39 GMT</lastBuildDate><item><title><![CDATA[An Introduction to Clojure, features, and usability]]></title><description><![CDATA[Clojure is a , , , and predominantly  from the Lisp family tree. It is completely dynamic, every feature supported by Clojure is supported…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/clojure-introduction-features/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/clojure-introduction-features/</guid><pubDate>Tue, 14 Apr 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Clojure is a &lt;code class=&quot;language-text&quot;&gt;general-purpose&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;dynamic&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;compiled&lt;/code&gt;, and predominantly &lt;code class=&quot;language-text&quot;&gt;functional programming language&lt;/code&gt; from the Lisp family tree. It is completely dynamic, every feature supported by Clojure is supported during runtime.&lt;/p&gt;
 &lt;p&gt;Clojure is designed based on LISP programming language and has compilers that make it run on both &lt;code class=&quot;language-text&quot;&gt;Java&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;.Net&lt;/code&gt; runtime environment. LISP is the &lt;code class=&quot;language-text&quot;&gt;second-oldest&lt;/code&gt; high-level programming language after Fortran. Some features make LISP really likable:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;almost no syntax&lt;/li&gt;
@@ -202,4 +202,54 @@ Consider an expression that defines a function named &lt;code class=&quot;langua
 
 &amp;gt;&amp;gt; Password : your_access_token&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;hr&gt;
-&lt;h2&gt;Have a great weekend 😉&lt;/h2&gt;</content:encoded></item></channel></rss>
+&lt;h2&gt;Have a great weekend 😉&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[My Open-Source Beginnings with Mozilla]]></title><description><![CDATA[“There are years that ask questions and years that answer.” I am fond of asking questions and used to ask many questions to myself as well…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/open-source-beginnings-mozilla/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/open-source-beginnings-mozilla/</guid><pubDate>Mon, 07 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;“There are years that ask questions and years that answer.”&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I am fond of asking questions and used to ask many questions to myself as well as other people.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;My questions mostly revolves around :&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;How could I start contributing to open-source ?&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;I know these languages, are these enough for me ?&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Am I ready to create hype in open-source ?&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;How to choose the project on GitHub that sounds interesting to me (because I don’t know where my interest actually lies) ?&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;What are the beginner-friendly communities?&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Whenever I used to meet new people on meetups, hackathon or conferences, my first question always revolve around these only. Sometimes I felt how stupid questions am asking, a feeling of inferiority, fear and hesitation got developed within me. I used to keep myself underrated. Moreover, once I got so frustrated, I just chucked my laptop.&lt;/p&gt;
+&lt;h2&gt;Happened with you, also?&lt;/h2&gt;
+&lt;p&gt;We might think sometimes &lt;code class=&quot;language-text&quot;&gt;I am unable to understand my own code, how am I supposed to read and then make changes to someone else’s code ?&lt;/code&gt; Until last year, the same thing goes in my mind, too. Reading and understanding someone’s else code and writing your own code on top of that can be a daunting task, but with the right resources and guidelines, it is not as difficult as we might think.&lt;/p&gt;
+&lt;p&gt;Before stepping ahead into open-source, we should atleast know any programming language and have working knowledge of GitHub. Once you start making efforts, be more mindful to your activities, the more appreciation and results could be discovered. I don’t want to tire you people by telling the definition of open-source and all. Go-ahead and search by yourself 🙂&lt;/p&gt;
+&lt;p&gt;The first open-source project with which I started the contribution is &lt;a href=&quot;https://github.com/firefox-devtools/debugger&quot;&gt;Debugger&lt;/a&gt; from &lt;a href=&quot;https://github.com/firefox-devtools&quot;&gt;Firefox Devtools&lt;/a&gt;🔥🦊🛠&lt;/p&gt;
+&lt;p&gt;A brief explanation about project : &lt;a href=&quot;https://github.com/firefox-devtools/debugger&quot;&gt;Debugger&lt;/a&gt; is a hackable debugger for modern times, built from the ground up using &lt;code class=&quot;language-text&quot;&gt;React&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;Redux&lt;/code&gt;. It is designed to be approachable, yet powerful. And it is engineered to be predictable, understandable, and testable. Mozilla created this debugger for use in the Firefox Developer tools.&lt;/p&gt;
+&lt;p&gt;There’s ton of things that I like about the Mozilla Community. Being a beginner, we need proper guidance and help from the community on how to get involved and perform certain tasks, that could be best extracted from Mozilla. I felt the people in this community are not only contributing to the development of their own but others too.&lt;/p&gt;
+&lt;p&gt;For more detailed Information, visit the &lt;a href=&quot;https://github.com/firefox-devtools&quot;&gt;site&lt;/a&gt;&lt;/p&gt;
+&lt;center&gt;&lt;sub&gt;Debugger Project&lt;/sub&gt;&lt;/center&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3006cfed17784c9e083eb0de52523c30/914c7/Invoice_10953835549.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 78.37837837837837%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAIAAACZeshMAAAACXBIWXMAAAsSAAALEgHS3X78AAACaUlEQVQoz3VSyXIaMRDl//8jPpmKDT7mknBwmXIRDAPYlbLJbMyifZ1VM+kZ8HLJK0nVUutJ3a978pS437l7zt3h1Cei6/u+G5Z+ND7QfxkXKG0m6+Xe//H8uHq5jx+9v/v6uIuCw84sy870/8eFvL1fosXTfr1+eP212j2c1g/eZnkf/DyRmFJGCAUgpjE3TNfKlpxxKVXbtgM5pxxJwYXgRHEmEROUa0FNnmNMSJblWY5gpBmyRVlVdVEU1hZN0wzktxgHfuj7wdvxGEVRHMVBQvzo5AfBuBsQJjhBLM5ZlKAwDDmXVVVpICOUx6c4zxFlnFIOn0RhCDSYwWjAiwhTpa3UBn6TUtZ1DWkrrSf+8fX77Hq/+0OJNLperdbX0+n87m42n83nwwTj9vb25uZmNptNp9NvV1eLxeIiGOdMK1kWxrWVUooxrqUq7JDYB8AG8TDGnAtrbZomZVlqYycpEi+hfAlYgGqQtG1qm+IyJZ2tvtamKBtlStc5sEFJeHEkY+Fn9vCWR6QmXHWurYVqjf3slbGqCA81ApFd16cZLs9krVVVFpxRuES4KepWpIS8npQsWte17TCAgjEFeVvnmrrOTklxDhvUg5QgW3BIbeumheMio5W28LVzl94shiIPcM6hPL+EDeTuPULQSVur4qzKIEoB/qoqzy6hSiZKyHwIkLznDH9+kEFg6CGZE51RkiGBsAZ1jW3bRuoG9Dpf+yQzxoQQxgzVh37UWnNMJaIKDmGjYDFQKzg4xkyMHQJkyGEgg7XZbDzP2263sO48b3/Y72Ds9zvAuADAA/7R8IIggMyhSf4B6pt6qr1e8ekAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Debugger Project&quot;
+        title=&quot;Debugger Project&quot;
+        src=&quot;/static/3006cfed17784c9e083eb0de52523c30/fcda8/Invoice_10953835549.png&quot;
+        srcset=&quot;/static/3006cfed17784c9e083eb0de52523c30/12f09/Invoice_10953835549.png 148w,
+/static/3006cfed17784c9e083eb0de52523c30/e4a3f/Invoice_10953835549.png 295w,
+/static/3006cfed17784c9e083eb0de52523c30/fcda8/Invoice_10953835549.png 590w,
+/static/3006cfed17784c9e083eb0de52523c30/efc66/Invoice_10953835549.png 885w,
+/static/3006cfed17784c9e083eb0de52523c30/914c7/Invoice_10953835549.png 978w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;If you need any help or want to ask any question, shoot mail at &lt;strong&gt;soniasingla.1812@gmail.com&lt;/strong&gt; or &lt;a href=&quot;https://twitter.com/soniasinglas&quot;&gt;twitter&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Best Wishes and Happy Coding 😉&lt;/h2&gt;</content:encoded></item></channel></rss>
