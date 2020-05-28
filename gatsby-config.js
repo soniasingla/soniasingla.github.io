@@ -3,7 +3,7 @@ module.exports = {
     title: `Sonia Singla`,
     author: {
       name: `Sonia Singla`,
-      summary: `, an outreachy intern with Mozilla 🦊 FOSS enthusiast and open web ❤️.`,
+      summary: `, CloudNativeFdn Intern 2020 | Outreachy 2019 Intern at Mozilla | Open-Source Contributor at Mozilla | Mozilla Representative | 20 y.o 👩🏻‍💻`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,

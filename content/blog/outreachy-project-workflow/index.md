@@ -6,9 +6,8 @@ description: "The reporter is implemented as a standalone Web-extension, that le
 
 The theme for this week in **Outreachy** is `Think About Your Audience`. So I’m currently thinking about you 😉
 
-<center><sub>Hmm, thinking about you 😉</sub></center>
-
 ![Hmm, thinking about you 😉](./giphy.gif)
+<center><sub>Hmm, thinking about you 😉</sub></center></br>
 
 We are provided with some goals and another amazing task to write blog post about elucidating the project in which we are interned.
 

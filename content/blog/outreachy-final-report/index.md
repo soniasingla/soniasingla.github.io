@@ -14,4 +14,4 @@ Dennis, my [Outreachy](https://www.outreachy.org/) mentor has big hand in helpin
 
 Now this internship has been ended, what next? 🤔 After completing my graduation(which is supposed to be completed in May 2021), I want to switch country, looking for new opportunities.
 
-Lastly, I want to say thanks to Outreachy[https://www.outreachy.org/] Program, Mozilla, and to my mentor, Dennis Schubert ❤️
+Lastly, I want to say thanks to Outreachy[https://www.outreachy.org/] Program, Mozilla, and to my mentor, [Dennis Schubert](https://schub.wtf/) ❤️

@@ -16,9 +16,8 @@ Always remember, there is nothing annoying about asking questions and the earlie
 
 I have been contributing in the open-source from past few months and I have never seen such patience in the mentor(asking same questions again and again mostly annoys other person). [Dennis](https://schub.wtf/), explained everything very well in the most easiest and systematic way, even after asking same repeated questions. This is the Christmas time and my mentor never took more than an hour to reply. In the second week, we had team meeting where [Dennis](https://schub.wtf/) introduced me with other mentors, testing team, and other team members of [webcompat](https://webcompat.com/). I am glad to meet them all 🤓
 
-<center><sub>Yeyyeye, full speed ahead 🐣</sub></center>
-
 ![Full Speed Ahead](./aw.jpg)
+<center><sub>Yeyyeye, full speed ahead 🐣</sub></center>
 
 ---
 There is no perfect path or journey, and it is fine to get stuck 😉

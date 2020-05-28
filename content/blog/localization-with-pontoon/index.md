@@ -4,9 +4,8 @@ date: "2019-03-30"
 description: "Localization is top-priority contribution and an essential component in ensuring that our translation has the maximum effect on million of users."
 ---
 
-<center><sub>Presenting talk on localization</sub></center>
-
 ![Presenting talk on localization](./a54e2-1vsk2szwcrs_zezfib-wua.jpeg)
+<center><sub>Presenting talk on localization</sub></center><br/>
 
 Few days ago, I got an opportunity to speak about `Localization with Pontoon` at the event `Dive into Open-Source` at **Jalandhar, India.**
 

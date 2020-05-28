@@ -36,9 +36,8 @@ There’s ton of things that I like about the Mozilla Community. Being a beginne
 
 For more detailed Information, visit the [site](https://github.com/firefox-devtools)
 
-<center><sub>Debugger Project</sub></center>
-
 ![Debugger Project](./Invoice_10953835549.png)
+<center><sub>Debugger Project</sub></center><br/>
 
 If you need any help or want to ask any question, shoot mail at **soniasingla.1812@gmail.com** or [twitter](https://twitter.com/soniasinglas).
 

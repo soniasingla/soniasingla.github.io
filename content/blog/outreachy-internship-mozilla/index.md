@@ -28,9 +28,8 @@ Once an initial application is approved, you have to pick the projects you want 
 
 You need to set your own deadlines, make progress towards the projects and create a final application.
 
-<center><sub>Sonia’s reaction, after getting an email for being accepted 🙈</sub></center>
-
 ![Sonia's reaction](./excited.gif)
+<center><sub>Sonia’s reaction, after getting an email for being accepted 🙈</sub></center><br/>
 
 It was an adventurous experience applying for this internship, and it’s pretty cool seeing what is behind Firefox, and the feeling of having some patches landed.
 
