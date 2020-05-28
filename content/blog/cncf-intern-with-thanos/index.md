@@ -44,7 +44,7 @@ As part of this internship, I’ll be working on completing the Katacoda tutoria
 
 ##Agreement:
 
-![Thanos Project](./agreement.png)
+![Thanos Project](./sign.png)
 <center><sub>Signed xDDDD</sub></center><br/>
 
 **Signing off for today, until next time 👻**
