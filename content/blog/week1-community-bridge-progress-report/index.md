@@ -50,7 +50,7 @@ I managed to send 2 pull requests by the end of my first week, and it's the wond
 1. Complete the proposal for **"Downsampling and unlimited metric retention for Promothesus"**.
 2. Go through all the documentation of [Thanos](https://thanos.io/), play with all the components and fix all the broken links.
 3. Make changes requested for the Pull Requests which are under review.
-4. Prepare a short 5 min talk on **"Downsampling and unlimited metric retention for Promothesus"** to be delivered in Mentees Hangout Meet on Friday 🤗
+4. Prepare a short 5 min talk on **"Downsampling and unlimited metric retention for Promotheus"** to be delivered in Mentees Hangout Meet on Friday 🤗
 
 It is a good experience till now, and I look forward to more contributing, learning and growing ! 😇
 
