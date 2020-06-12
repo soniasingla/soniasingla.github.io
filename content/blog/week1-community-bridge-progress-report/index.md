@@ -4,7 +4,9 @@ date: "2020-06-03"
 description: "After 30 years and 1 week of lock down, I am feeling productive (Just kidding, i am just 20 😂). Ready to roll with me again? 😉"
 ---
 
-![](./isolated.gif)
+<p align="center">
+  <img src="./isolated.gif">
+</p>
 <center><sub>LOCK DOWN & SELF-ISOLATED</sub></center><br/>
 
 After 30 years and 1 week of lock down, I am feeling productive (Just kidding, i am just 20 😂). Ready to roll with me again? 😉
@@ -13,7 +15,9 @@ I completed the first week of [my internship](https://soniasingla.com/cncf-inter
 
 ## WORK DONE :
 
-![](./workdone.gif)
+<p align="center">
+<img src="./workdone.gif">
+</p>
 <center><sub>WORK DONE</sub></center><br/>
 
 During the past first week, I worked on automating the TOC (Table of Content) on pages having more than 400 words. [Hugo](https://gohugo.io/) can automatically parse Markdown content and create a Table of Contents which we can use in our templates. The following is a partial template(smaller, context-aware components) that adds slightly more logic for page-level control over TOC (Table of Contents).
@@ -44,7 +48,9 @@ I managed to send 2 pull requests by the end of my first week, and it's the wond
 
 ## PLANS FOR NEXT WEEK :
 
-![](./planning.gif)
+<p align="center">
+<img src="./planning.gif">
+</p>
 <center><sub>PLANNING TIME</sub></center><br/>
 
 1. Complete the proposal for **"Downsampling and unlimited metric retention for Prometheus"**.

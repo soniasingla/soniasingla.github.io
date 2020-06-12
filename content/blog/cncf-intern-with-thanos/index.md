@@ -4,7 +4,9 @@ date: "2020-05-27"
 description: "I have been selected as an intern at Cloud Native Computing Foundation with Thanos where I will be working with the Project Complete Katacoda tutorials under the guidance of Bartek Plotka and Povilas Versockas."
 ---
 
-![](./thanos.gif)
+<p align="center">
+<img src="./thanos.gif">
+</p>
 
 ###Every person has their own journey, this is mine👩🏻‍💻
 
