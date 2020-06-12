@@ -21,7 +21,7 @@ Ready to roll with me? 😉 To make sure, we are all on the same page, I’ll st
 ##Thanos:Introduction
 
 ![Thanos Project](./triplets.png)
-<center><sub>[Thanos, Promotheus, Grafana]</sub></center><br/>
+<center><sub>[Thanos, Prometheus, Grafana]</sub></center><br/>
 
 [Thanos](https://github.com/thanos-io/thanos) is a project that turns your [Prometheus](https://prometheus.io/docs/prometheus/latest/installation/) installation into a highly available metric system with unlimited storage capacity. From a very high-level view, it does this by deploying a sidecar to Prometheus, which uploads the data blocks to any object storage. A store component downloads the blocks again and makes them accessible to a query component, which has the same API as Prometheus itself. This works nicely with [Grafana](https://grafana.com/) because its the same API. So without much effort, you can view your nice dashboard graphs beyond the configured retention time of your Prometheus monitoring stack. and get an almost unlimited timeline , only restricted by object storage capacities. [Thanos](https://github.com/thanos-io/thanos) also provides downsampling of stored metrics, deduplication of data points and some more.
 
