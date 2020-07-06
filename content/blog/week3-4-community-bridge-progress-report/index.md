@@ -26,7 +26,7 @@ Finally, I gave up and discussed about this problem with my mentors, co-mentees 
 </p>
 <center><sub>Running Store Gateway locally</sub></center><br/>
 
-Coming to the tutorial **<i>"Downsampling and unlimited metric retention for Prometheus"</i>**, I'm adding multiple commits in single PR, you can subscribe to this [pull request](https://github.com/thanos-io/thanos/pull/2801) for all the updates. Please feel free to drop suggestions and review, let me know if something is missing 🤗
+Coming to the tutorial **<i>"Downsampling and unlimited metric retention for Prometheus"</i>**, I'm adding multiple commits in single PR, you can subscribe to this [pull request](https://github.com/thanos-io/thanos/pull/2840) for all the updates. Please feel free to drop suggestions and review, let me know if something is missing 🤗
 
 ## PLANS FOR NEXT WEEK :
 
