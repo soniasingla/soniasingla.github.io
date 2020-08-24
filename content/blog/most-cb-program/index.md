@@ -27,14 +27,14 @@ If the mentors get to know you early and longer, then their decisions to choose 
 <b>2. Project Selection 🤔:</b> [Community Bridge program](https://communitybridge.org/) has a list of different organizations and most of them have interesting projects you would love to work on. Always try to focus on 2–3 projects rather than everywhere. Choose your project wisely. It will help you to concentrate on being a great candidate for that project.
 You will need to put effort into completing the tasks. It's a good point to make sure you really want to learn and work on a particular idea.
 
-<b>3. Set Goals/Objectives 🎯:</b> Once you have narrow down your project choices, reach out to the mentors for guidance, potential tasks, and good first issues to work on. Set some goals for what you want to work on and start contributing. Don't stop at one contribution. Making multiple contributions makes your profile stand out from the rest.<br><br>
+<b>3. Set Goals/Objectives 🎯:</b> Once you have narrowed down your project choices, reach out to the mentors for guidance, potential tasks, and good first issues to work on. Set some goals for what you want to work on and start contributing. Don't stop at one contribution. Making multiple contributions makes your profile stand out from the rest.<br><br>
 Also, the most important thing, this should not be a competition with other applicants. With your set goals, focus on yourself and compete with your own goals.
 
 <b>4. Community Engagement 🤝:</b> To know more about the organization culture, contribution workflow/communication channels, and Initial discussions about the project, it is important to communicate with the community. The project mentor is going to be one of the biggest factors that will affect your experience during the internship. Thus, you should make sure you get along! Ask them questions about what they look for when picking interns. If there are some weekly/monthly community meetings, try to join them and keep yourself updated with the latest feed, and ask questions if you have any.<br><br>
 If you are working on a new feature or pull request, it is preferred to ask in the channel and explain the changes in detail to make the review process fast and easy.
 
 <b>5. Feedback 🙌🏻:</b> Ask for feedback on the proposal or application form before the deadline. Asking for feedback can be a difficult thing, but it's a very important part of the application process. If you want to know what you're doing well, or what points you need to improve on, you'll need to be prepared to ask your mentor for feedback on your work.<br><br>
-The application process is mandatory and everyone must make an effort to try it out. Whether you are accepted or not, it will serve as a win. The contributions and connections you made during the application process will act as your project reference for the next opportunity, who knows? 😉<br><br>
+The application process is mandatory and everyone must make an effort to try it out. Whether you are accepted or not, it will serve as a win. The contributions and connections you made during the application process may act as your project reference for the next opportunity, who knows? 😉<br><br>
 
 If you are a beginner in the open-source world, do not feel disheartened. At least you have started with open-source through this process and learned a lot of new things. The FOSS mentors are the kindest people in the world, they are always willing to guide and help you to continue with the contributions.
 
@@ -96,7 +96,7 @@ Every day, new languages, frameworks, and devices capture our attention and spur
 <b>4. Be curious & challenge yourself 💪🏻:</b> You're going to make mistakes, make sure to ask tons of questions. But you're definitely going to learn a lot, that's how we learn, isn't it? When I started with Thanos, I didn't have prior experience with Golang, and was not much comfortable with Docker, but I know I can learn along with it.
 Make sure to do proper research and homework, before asking questions.
 
-<b>5. Having Mentors 👤:</b> My mentors, Bartek and Povilas taught me patiently how to write readable code, automate things, be clear and transparent whatever you are writing, use tools and make things easier for others, through the strict code review. Isn't it great?<br><br>
+<b>5. Having Mentors 👤:</b> My mentors, Bartek and Povilas, taught me patiently how to write readable code, automate things, be clear and transparent with whatever you are writing, use tools and make things easier for others, through the strict code review. Isn't it great?<br><br>
 I am fortunate enough to have them as mentors as they not only guided me technically but also showed how to become a good software engineer and human being.
 
 <b>6. Managing Project 👩🏻‍💻:</b> Yes, you heard me absolutely right! We can keep contributing towards our project even after the internship as it's open-source. The internship project becomes part of an even bigger project and thus, the last day of an internship isn't the end of your learning.
@@ -106,7 +106,7 @@ There are many ways to collaborate with people and organizations. Encouraging co
 
 <b>8. Have Fun 😉:</b> It is so important to have fun at work. Create your own sense of happiness as there will be times of happiness and frustration, both. With patience and practice, you are definitely going to be better at your work, so make it something you look forward to rather than just a responsibility.
 
-<b>9. Thank You ❤️:</b> Before I sign up for this post, I would like to take a moment to thank my mentors, Bartek Plotka](https://www.bwplotka.dev/) and [Povilas Versockas](https://povilasv.me/). I really appreciate you all. Giving time despite the busy schedule to advise and guide someone is no easy feat!
+<b>9. Thank You ❤️:</b> Before I sign off for this post, I would like to take a moment to thank my mentors, [Bartek Plotka](https://www.bwplotka.dev/) and [Povilas Versockas](https://povilasv.me/). I really appreciate you all. Giving time despite the busy schedule to advise and guide someone is no easy feat!
 
 This program would never have finished without the hard work of [Ihor Dvoretskyi](https://github.com/idvoretskyi) and [CNCF community members](https://github.com/cncf/mentoring), thank you so much for everything.
 
