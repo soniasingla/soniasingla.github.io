@@ -1,4 +1,144 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sonia Singla]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 27 Jul 2020 06:52:37 GMT</lastBuildDate><item><title><![CDATA[Week 05 & 06 - Progress Report with Community Bridge]]></title><description><![CDATA[I completed the six weeks of my internship at Cloud Native Computing Foundation with Thanos under the mentorship of Bartek Plotka and…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/week5-6-community-bridge-progress-report/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/week5-6-community-bridge-progress-report/</guid><pubDate>Thu, 09 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p align=&quot;center&quot;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sonia Singla]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 24 Aug 2020 20:17:10 GMT</lastBuildDate><item><title><![CDATA[Get the most out of Community Bridge Program]]></title><description><![CDATA[Hello everyone, my name is Sonia 👱‍♀️, and currently, am pursuing my Bachelor’s in Information Technology from Panjab University…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/most-cb-program/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/most-cb-program/</guid><pubDate>Tue, 25 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a2dd40bcbd3b25ab9574514e4c36d915/c1b63/program.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 76.35135135135135%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAAsSAAALEgHS3X78AAACdklEQVQoz21SWY7TQBD1xbgHJ+CDI/DNgfgEhDQIRpnBk8Tx0t6zeG+34629xR7bTTkZJATzVCq3qt1Vr14V9+XT17dv3huqY9imF4R5SRlj08Tm+WY3sL8NAKFxnLjV9/sP7z7GUYmT5JwklJbsestewfzPFdcPgx9CST8v6L5ifsv25WyW86lip5qFIT7iDOLHej42zK5mrZyK51txxuGYrB5+bYWdrGo8skXLWWuHB9EQ9P1W22+2gqBovLbXd6pxtzJ+8Mq3Vazby+Np5oZLV+ZpV9O+rfumGhajHc3bpgajlF66rmubITvPBE9JPJForulL5aRjwMqpmduwYCHGjtXstiwrCt/3I4zDCMPBqadjy7yO2TX8MDnFcKWdUcF05IMvWY4dEME4SrYj7z1V0yVJMgwTIEnyGpmGi/VTuDOdU5y310FwhMQ7QdCQYuiaZRpIUXXN4B8foVmEkKIgUZI1VRPF3Xa9kUVRVRRdVX3P7fuBiwlREJIVZNnW02bn2PwlRyVtiiKv67osaVGCW0BIcjsURZGm2TiOXFXVgQet4XOaEpLWRTh1ESzJNIGcr077z9Ch53OS3X2+d1w3xnFWllFahmmJ0yxO0gATSisQu2natoVvd+n7xV8B2TkImJZlmpai6drq8cTz5o+fvqJkRZ4kSRRFOMJBEOA4JkmSZRkhBDzQXNbzeRyburmmvfS06ov8kuc9pcB5ugHWeJ6frxiGAXzf99DwQhvegLCSLPNPa0XVBFECkxEShB3PP4kI6au1txFJmsYYg2ZQGcYOyr3sNjTsef6yCa67PxyOpxPoDLmhAvAau55d+v8FA0q/AcPZOQsQSE8ZAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Thanos Project&quot;
+        title=&quot;Thanos Project&quot;
+        src=&quot;/static/a2dd40bcbd3b25ab9574514e4c36d915/fcda8/program.png&quot;
+        srcset=&quot;/static/a2dd40bcbd3b25ab9574514e4c36d915/12f09/program.png 148w,
+/static/a2dd40bcbd3b25ab9574514e4c36d915/e4a3f/program.png 295w,
+/static/a2dd40bcbd3b25ab9574514e4c36d915/fcda8/program.png 590w,
+/static/a2dd40bcbd3b25ab9574514e4c36d915/efc66/program.png 885w,
+/static/a2dd40bcbd3b25ab9574514e4c36d915/c83ae/program.png 1180w,
+/static/a2dd40bcbd3b25ab9574514e4c36d915/c1b63/program.png 1200w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;&lt;sub&gt;CNCF 😻&lt;/sub&gt;&lt;/center&gt;&lt;br/&gt;
+&lt;p&gt;Hello everyone, my name is Sonia 👱‍♀️, and currently, am pursuing my Bachelor’s in Information Technology from Panjab University, Chandigarh, India. I have successfully graduated from Linux Foundation’s &lt;a href=&quot;https://communitybridge.org/&quot;&gt;Community Bridge program&lt;/a&gt; with &lt;a href=&quot;https://thanos.io/&quot;&gt;Thanos&lt;/a&gt; community. In this blog post, I am going to write about my experience and suggestions for future Community Bridge interns to help you get the most out of your internship 😻&lt;/p&gt;
+&lt;h3&gt;Every person has their own journey, this is mine👩🏻‍💻&lt;/h3&gt;
+&lt;h2&gt;Application Process:&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;#1-start-early&quot;&gt;Start Early 🕓&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-project-selection&quot;&gt;Project Selection 🤔&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#3-set-goals&quot;&gt;Set Goals/Objectives 🎯&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#4-community-engagement&quot;&gt;Community Engagement 🤝&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#5-ask-for-feedback&quot;&gt;Ask for feedback 🙌🏻&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Applying for the &lt;a href=&quot;https://communitybridge.org/&quot;&gt;Community Bridge program&lt;/a&gt; is a very engaging process. It requires you to make many decisions and to commit the effort of making contributions as part of the requirements to be accepted.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;1. Start Early 🕓:&lt;/b&gt; It is advisable to start the process early so that you can interact with the project mentors, maintainers, and the other community members. This ensures the understanding of the working style of the organization and adapts to it in a better manner when the internship period actually starts.&lt;br&gt;&lt;br&gt;
+If the mentors get to know you early and longer, then their decisions to choose you will be more informed than if you come in days before the deadline.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;2. Project Selection 🤔:&lt;/b&gt; &lt;a href=&quot;https://communitybridge.org/&quot;&gt;Community Bridge program&lt;/a&gt; has a list of different organizations and most of them have interesting projects you would love to work on. Always try to focus on 2–3 projects rather than everywhere. Choose your project wisely. It will help you to concentrate on being a great candidate for that project.
+You will need to put effort into completing the tasks. It’s a good point to make sure you really want to learn and work on a particular idea.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;3. Set Goals/Objectives 🎯:&lt;/b&gt; Once you have narrow down your project choices, reach out to the mentors for guidance, potential tasks, and good first issues to work on. Set some goals for what you want to work on and start contributing. Don’t stop at one contribution. Making multiple contributions makes your profile stand out from the rest.&lt;br&gt;&lt;br&gt;
+Also, the most important thing, this should not be a competition with other applicants. With your set goals, focus on yourself and compete with your own goals.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;4. Community Engagement 🤝:&lt;/b&gt; To know more about the organization culture, contribution workflow/communication channels, and Initial discussions about the project, it is important to communicate with the community. The project mentor is going to be one of the biggest factors that will affect your experience during the internship. Thus, you should make sure you get along! Ask them questions about what they look for when picking interns. If there are some weekly/monthly community meetings, try to join them and keep yourself updated with the latest feed, and ask questions if you have any.&lt;br&gt;&lt;br&gt;
+If you are working on a new feature or pull request, it is preferred to ask in the channel and explain the changes in detail to make the review process fast and easy.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;5. Feedback 🙌🏻:&lt;/b&gt; Ask for feedback on the proposal or application form before the deadline. Asking for feedback can be a difficult thing, but it’s a very important part of the application process. If you want to know what you’re doing well, or what points you need to improve on, you’ll need to be prepared to ask your mentor for feedback on your work.&lt;br&gt;&lt;br&gt;
+The application process is mandatory and everyone must make an effort to try it out. Whether you are accepted or not, it will serve as a win. The contributions and connections you made during the application process will act as your project reference for the next opportunity, who knows? 😉&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;If you are a beginner in the open-source world, do not feel disheartened. At least you have started with open-source through this process and learned a lot of new things. The FOSS mentors are the kindest people in the world, they are always willing to guide and help you to continue with the contributions.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;/0f9aa0f891ab9f5d995d6a278ee00269/save.gif&quot;&gt;
+&lt;/p&gt;
+&lt;center&gt;&lt;sub&gt;Work Together &amp;#x1F917;&lt;/sub&gt;&lt;/center&gt;&lt;br&gt;
+&lt;p&gt;&lt;b&gt;&lt;i&gt;Note: You can always apply to the next round if you are not accepted. Learn from your mistakes and improve them in the next rounds.&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;h2&gt;Internship Guide:&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;Sync up with Mentors 👾&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;Communication 👋🏻&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;Be Honest 😇&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;Be Curious &amp;#x26; Challenge yourself 💪🏻&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;Having Mentors 👤&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;Managing Project 👩🏻‍💻&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;Join a group of co-interns 👥&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;Have fun on the way 😉&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;Thank You ❤️&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;/7b9ebfaf9d2e31b37e3057d6085b7143/Thanos-logo_full.svg&quot; alt=&quot;Thanos Project&quot;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;sub&gt;Thanos 👾&lt;/sub&gt;&lt;/center&gt;&lt;br/&gt;
+&lt;p&gt;I completed my internship with &lt;a href=&quot;https://thanos.io/&quot;&gt;Thanos&lt;/a&gt; project under the guidance of &lt;a href=&quot;https://www.bwplotka.dev/&quot;&gt;Bartek Plotka&lt;/a&gt; and &lt;a href=&quot;https://povilasv.me/&quot;&gt;Povilas Versockas&lt;/a&gt; where I worked on the project &lt;a href=&quot;https://github.com/thanos-io/thanos/issues/2041&quot;&gt;Complete Katacoda tutorials&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Thanos:Introduction&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/thanos-io/thanos&quot;&gt;Thanos&lt;/a&gt; is a project that turns your &lt;a href=&quot;https://prometheus.io/docs/prometheus/latest/installation/&quot;&gt;Prometheus&lt;/a&gt; installation into a highly available metric system with unlimited storage capacity. From a very high-level view, it does this by deploying a sidecar to Prometheus, which uploads the data blocks to any object storage. A store component downloads the blocks again and makes them accessible to a query component, which has the same API as Prometheus itself. This works nicely with &lt;a href=&quot;https://grafana.com/&quot;&gt;Grafana&lt;/a&gt; because its the same API. So without much effort, you can view your nice dashboard graphs beyond the configured retention time of your Prometheus monitoring stack. and get an almost unlimited timeline , only restricted by object storage capacities. &lt;a href=&quot;https://github.com/thanos-io/thanos&quot;&gt;Thanos&lt;/a&gt; also provides downsampling of stored metrics, deduplication of data points and some more.&lt;/p&gt;
+&lt;p&gt;Since I had no prior knowledge of Golang, I decided to learn more about Golang and simultaneously, started working on good first issues to know more about the different components of Thanos.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Here is my list of online tutorials I found to be really helpful&lt;i&gt;(Many thanks to Khyati)&lt;/i&gt;&lt;/b&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=YS4e4q9oBaU&quot;&gt;https://www.youtube.com/watch?v=YS4e4q9oBaU&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://play.golang.org/&quot;&gt;https://play.golang.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://gobyexample.com/&quot;&gt;https://gobyexample.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;b&gt;List of the blogs, tutorials, and videos that are really helpful in order to understand Thanos project:&lt;/b&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://katacoda.com/thanos/courses/thanos/1-globalview&quot;&gt;https://katacoda.com/thanos/courses/thanos/1-globalview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://thanos.io/getting-started.md/&quot;&gt;https://thanos.io/getting-started.md/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Fb_lYX01IX4&quot;&gt;Thanos Introduction, PromCon 2018&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/Iuo1EjCN5i4&quot;&gt;Thanos - Transforming Prometheus to a Global Scale in a Seven Simple Steps, GrafanaCon LA 2019&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c66bb338eed269a6641e8d4efa1d1321/29007/Q.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 17.567567567567565%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAIAAAABPYjBAAAACXBIWXMAAAsSAAALEgHS3X78AAAAaklEQVQI143O3QqAIAwFYN//FbuMEEzdnFFtzUrs56abvosNzmEw0/V2CBmjndBhIkRkXvfCxw+mH+wYIhFkShUR5QSFw6/jeZlFWDdVLfoQUW6k4Y8rN865+qr3vk4AiLdwLWjimzZvdQLPlOcPk/3NFAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Thanos Project&quot;
+        title=&quot;Thanos Project&quot;
+        src=&quot;/static/c66bb338eed269a6641e8d4efa1d1321/fcda8/Q.png&quot;
+        srcset=&quot;/static/c66bb338eed269a6641e8d4efa1d1321/12f09/Q.png 148w,
+/static/c66bb338eed269a6641e8d4efa1d1321/e4a3f/Q.png 295w,
+/static/c66bb338eed269a6641e8d4efa1d1321/fcda8/Q.png 590w,
+/static/c66bb338eed269a6641e8d4efa1d1321/efc66/Q.png 885w,
+/static/c66bb338eed269a6641e8d4efa1d1321/c83ae/Q.png 1180w,
+/static/c66bb338eed269a6641e8d4efa1d1321/29007/Q.png 1600w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;&lt;sub&gt;Make sure to sign the agreement&lt;/sub&gt;&lt;/center&gt;&lt;br/&gt;
+&lt;p&gt;&lt;b&gt;1. Sync up with Mentors 👾:&lt;/b&gt; I had weekly hangouts meeting with my mentor where we kept a proper meeting agenda ready to discuss the blockers, update pull requests, discuss the project proposal, and it’s implementation. Ask for feedback from the mentors, maybe weekly? Be transparent if something is not clear and it is advisable to share the transparent status of what you are doing with the mentors as it will help you in a long way.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;2. Communication 👋🏻:&lt;/b&gt; As I mentioned above, making regular communication with the mentors, co-mentees and other members of the community is one of the most important things. This ensures you understand the working style of the organization and adapt to it in a better manner when the internship period actually starts.&lt;br&gt;&lt;br&gt;
+We, Thanos mentees, took an initiative to gather all the mentees and invite a speaker to our weekly calls to make the discussion more open, inclusive, and interactive. Here’s the &lt;a href=&quot;https://github.com/soniasingla/thanos-mentees-meeting-notes&quot;&gt;GitHub repo&lt;/a&gt; which contains all the notes and useful material.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;3. Be Honest 😇:&lt;/b&gt; Please be honest about your previous experiences, what you have built or created, contributed, and accomplished. As a developer, it’s exciting and challenging to stay up to speed with the latest trends in technology.&lt;br&gt;&lt;br&gt;
+Every day, new languages, frameworks, and devices capture our attention and spur conversations in meetups, forums, and chats. However, our developer community is made of people, not tools, and it’s fascinating to explore its sociopolitical aspects. Software engineers are never done learning as our field is always changing. We are always beginners at some things and experts at others.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;4. Be curious &amp;#x26; challenge yourself 💪🏻:&lt;/b&gt; You’re going to make mistakes, make sure to ask tons of questions. But you’re definitely going to learn a lot, that’s how we learn, isn’t it? When I started with Thanos, I didn’t have prior experience with Golang, and was not much comfortable with Docker, but I know I can learn along with it.
+Make sure to do proper research and homework, before asking questions.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;5. Having Mentors 👤:&lt;/b&gt; My mentors, Bartek and Povilas taught me patiently how to write readable code, automate things, be clear and transparent whatever you are writing, use tools and make things easier for others, through the strict code review. Isn’t it great?&lt;br&gt;&lt;br&gt;
+I am fortunate enough to have them as mentors as they not only guided me technically but also showed how to become a good software engineer and human being.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;6. Managing Project 👩🏻‍💻:&lt;/b&gt; Yes, you heard me absolutely right! We can keep contributing towards our project even after the internship as it’s open-source. The internship project becomes part of an even bigger project and thus, the last day of an internship isn’t the end of your learning.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;7. Join a group of co-interns 👥:&lt;/b&gt; Interact with your co-interns &amp;#x26; other folks in the community. It makes the journey more interesting and easy for you. Thanos Mentees team took an initiative to organize a hangout meeting every Friday to discuss weekly goals, review blog posts, hear funny stories, learn, and interact with each other. All these meetings were open to everyone. Along with the time, some of the interns from the other CNCF projects and past interns also joined the meets and we really had a great time.&lt;br&gt;&lt;br&gt;
+There are many ways to collaborate with people and organizations. Encouraging communication between companies with a shared experience (Thanos) can be really helpful for the larger goal of continuing to ensure there is a strong base of support for future interns.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;8. Have Fun 😉:&lt;/b&gt; It is so important to have fun at work. Create your own sense of happiness as there will be times of happiness and frustration, both. With patience and practice, you are definitely going to be better at your work, so make it something you look forward to rather than just a responsibility.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;9. Thank You ❤️:&lt;/b&gt; Before I sign up for this post, I would like to take a moment to thank my mentors, Bartek Plotka](&lt;a href=&quot;https://www.bwplotka.dev/&quot;&gt;https://www.bwplotka.dev/&lt;/a&gt;) and &lt;a href=&quot;https://povilasv.me/&quot;&gt;Povilas Versockas&lt;/a&gt;. I really appreciate you all. Giving time despite the busy schedule to advise and guide someone is no easy feat!&lt;/p&gt;
+&lt;p&gt;This program would never have finished without the hard work of &lt;a href=&quot;https://github.com/idvoretskyi&quot;&gt;Ihor Dvoretskyi&lt;/a&gt; and &lt;a href=&quot;https://github.com/cncf/mentoring&quot;&gt;CNCF community members&lt;/a&gt;, thank you so much for everything.&lt;/p&gt;
+&lt;p&gt;I would also like to acknowledge some of the people who helped me along the way: &lt;a href=&quot;https://github.com/yeya24&quot;&gt;Ben Ye&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/ThotaHarshitha&quot;&gt;Harshitha Chowdary Thota&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/Thisisobate&quot;&gt;Uche Obasi&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/yashrsharma44&quot;&gt;Yash Sharma&lt;/a&gt; ,and &lt;a href=&quot;https://twitter.com/prmsrswt&quot;&gt;Prem Kumar&lt;/a&gt;. Congratulations to them for completing the program successfully. Thank you so much for helping when you could, providing support and guidance along the way. I have enjoyed working with you all so much over the internship. Thank you.&lt;/p&gt;
+&lt;p&gt;If I missed an important detail or you wish to add anything to this blog post, please feel free to ping me. I look forward to hearing feedback. That’s how we learn 🤗&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Week 05 & 06 - Progress Report with Community Bridge]]></title><description><![CDATA[I completed the six weeks of my internship at Cloud Native Computing Foundation with Thanos under the mentorship of Bartek Plotka and…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/week5-6-community-bridge-progress-report/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/week5-6-community-bridge-progress-report/</guid><pubDate>Thu, 09 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p align=&quot;center&quot;&gt;
   &lt;img src=&quot;/7b9ebfaf9d2e31b37e3057d6085b7143/Thanos-logo_full.svg&quot;&gt;
 &lt;/p&gt;
 &lt;center&gt;&lt;sub&gt;Thanos &amp;#x1F525;&lt;/sub&gt;&lt;/center&gt;&lt;br&gt;
