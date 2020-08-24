@@ -1,7 +1,7 @@
 ---
 title: Get the most out of Community Bridge Program
 date: "2020-08-25"
-description: "Unorganized stuff is the best 😂, always make a mess and then try to make it look good"
+description: "I am fortunate enough to have them as mentors as they not only guided me technically but also showed how to become a good software engineer and human being."
 ---
 
 ![Thanos Project](./program.png)
