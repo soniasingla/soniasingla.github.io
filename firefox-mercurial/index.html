@@ -1,0 +1,500 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.75 'Merriweather','Georgia',serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.9);font-family:'Merriweather','Georgia',serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:Montserrat,sans-serif;font-weight:900;text-rendering:optimizeLegibility;font-size:2.5rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.73286rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.4427rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;letter-spacing:0.140625em;text-transform:uppercase;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.83255rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.75966rem;line-height:1.1;font-style:italic;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}ul{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;list-style:disc;}ol{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:0.85rem;line-height:1.75rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1rem;line-height:1.75rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}blockquote{margin-left:-1.75rem;margin-right:1.75rem;margin-top:0;padding-bottom:0;padding-left:1.42188rem;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1.20112rem;line-height:1.75rem;color:hsla(0,0%,0%,0.59);font-style:italic;border-left:0.32813rem solid hsla(0,0%,0%,0.9);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.75rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.75rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}li > ul{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.75rem / 2);}code{font-size:0.85rem;line-height:1.75rem;}kbd{font-size:0.85rem;line-height:1.75rem;}samp{font-size:0.85rem;line-height:1.75rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.16667rem;padding-right:1.16667rem;padding-top:0.875rem;padding-bottom:calc(0.875rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}blockquote > :last-child{margin-bottom:0;}blockquote cite{font-size:1rem;line-height:1.75rem;color:hsla(0,0%,0%,0.9);font-weight:400;}blockquote cite:before{content:"— ";}ul,ol{margin-left:0;}@media only screen and (max-width:480px){ul,ol{margin-left:1.75rem;}blockquote{margin-left:-1.3125rem;margin-right:0;padding-left:0.98438rem;}}h1,h2,h3,h4,h5,h6{margin-top:3.5rem;}a{box-shadow:0 1px 0 0 currentColor;color:#007acc;text-decoration:none;}a:hover,a:active{box-shadow:none;}mark,ins{background:#007acc;color:white;padding:0.10938rem 0.21875rem;text-decoration:none;}a.gatsby-resp-image-link{box-shadow:none;}</style><style data-href="/styles.1a54add997246827ae7a.css">@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:100;src:local("Montserrat Thin "),local("Montserrat-Thin"),url(/static/montserrat-latin-100-191cc9f50f3b76b9617cb383f19acb7d.woff2) format("woff2"),url(/static/montserrat-latin-100-370318464551d5f25b0f0a78f374faac.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:100;src:local("Montserrat Thin italic"),local("Montserrat-Thinitalic"),url(/static/montserrat-latin-100italic-bdeaeb79db315697bd173a55b097dc18.woff2) format("woff2"),url(/static/montserrat-latin-100italic-ecf7d49386e8f265878e735db34a7c4b.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:200;src:local("Montserrat Extra Light "),local("Montserrat-Extra Light"),url(/static/montserrat-latin-200-85d5ef9db7f2dc6979172a4a3b2c57cb.woff2) format("woff2"),url(/static/montserrat-latin-200-1fc98e126a3d152549240e6244d7e669.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:200;src:local("Montserrat Extra Light italic"),local("Montserrat-Extra Lightitalic"),url(/static/montserrat-latin-200italic-49095760a498d024fe1a85a078850df9.woff2) format("woff2"),url(/static/montserrat-latin-200italic-fe46cf8b9462c820457d3bf537e4057f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:300;src:local("Montserrat Light "),local("Montserrat-Light"),url(/static/montserrat-latin-300-7c3daf12b706645b5d3710f863a4da04.woff2) format("woff2"),url(/static/montserrat-latin-300-8dc95fab9cf98d02ca8d76e97d3dff60.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:300;src:local("Montserrat Light italic"),local("Montserrat-Lightitalic"),url(/static/montserrat-latin-300italic-f20b178ca2024a5eac8e42e6649db86c.woff2) format("woff2"),url(/static/montserrat-latin-300italic-3fe16939288856e8e828fa2661bf2354.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:400;src:local("Montserrat Regular "),local("Montserrat-Regular"),url(/static/montserrat-latin-400-bc3aa95dca08f5fee5291e34959c27bc.woff2) format("woff2"),url(/static/montserrat-latin-400-8102c4838f9e3d08dad644290a9cb701.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:400;src:local("Montserrat Regular italic"),local("Montserrat-Regularitalic"),url(/static/montserrat-latin-400italic-5cad650422a7184467af5a4d17b264c4.woff2) format("woff2"),url(/static/montserrat-latin-400italic-d191f22af3bb50902b99ac577f81a322.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:500;src:local("Montserrat Medium "),local("Montserrat-Medium"),url(/static/montserrat-latin-500-92d16e458625f4d2c8940f6bdca0ff09.woff2) format("woff2"),url(/static/montserrat-latin-500-8b763220218ffc11c57c84ddb80e7b26.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:500;src:local("Montserrat Medium italic"),local("Montserrat-Mediumitalic"),url(/static/montserrat-latin-500italic-47bfcca6b69d6a9acca7a8bff17193e2.woff2) format("woff2"),url(/static/montserrat-latin-500italic-72c01f753c3940c0b9cb6bf2389caddf.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:600;src:local("Montserrat SemiBold "),local("Montserrat-SemiBold"),url(/static/montserrat-latin-600-6fb1b5623e528e27c18658fecf5ee0ee.woff2) format("woff2"),url(/static/montserrat-latin-600-7c839d15a6f54e7025ba8c0c4b333e8f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:600;src:local("Montserrat SemiBold italic"),local("Montserrat-SemiBolditalic"),url(/static/montserrat-latin-600italic-60789af1c9338ed1a9546722ec54b4f7.woff2) format("woff2"),url(/static/montserrat-latin-600italic-f3d4de8d0afb19e777c79032ce828e3d.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:700;src:local("Montserrat Bold "),local("Montserrat-Bold"),url(/static/montserrat-latin-700-39d93cf678c740f9f6b2b1cfde34bee3.woff2) format("woff2"),url(/static/montserrat-latin-700-80f10bd382f0df1cd650fec59f3c9394.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:700;src:local("Montserrat Bold italic"),local("Montserrat-Bolditalic"),url(/static/montserrat-latin-700italic-ba136d97b14e82284dd595e257f11c47.woff2) format("woff2"),url(/static/montserrat-latin-700italic-8c98142b425630821139c24bd1698700.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold "),local("Montserrat-ExtraBold"),url(/static/montserrat-latin-800-b7018be9ed6cd94da8b6675b3a468c3b.woff2) format("woff2"),url(/static/montserrat-latin-800-9a9befcf50d64f9d2d19d8b1d1984add.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold italic"),local("Montserrat-ExtraBolditalic"),url(/static/montserrat-latin-800italic-540ffdd223d1a9ad3d4e678e1a23372e.woff2) format("woff2"),url(/static/montserrat-latin-800italic-897086f99f4e1f45e6b1e9368527d0bc.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:900;src:local("Montserrat Black "),local("Montserrat-Black"),url(/static/montserrat-latin-900-58cd789700850375b834e8b6776002eb.woff2) format("woff2"),url(/static/montserrat-latin-900-26d42c9428780e545a540bbb50c84bce.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:900;src:local("Montserrat Black italic"),local("Montserrat-Blackitalic"),url(/static/montserrat-latin-900italic-451157bc8861fe54f523b3669a3def71.woff2) format("woff2"),url(/static/montserrat-latin-900italic-a8ec4957e1c24f5793305763ad9845b3.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:300;src:local("Merriweather Light "),local("Merriweather-Light"),url(/static/merriweather-latin-300-b1158cfcd4aacb9d8fb61625e37af46a.woff2) format("woff2"),url(/static/merriweather-latin-300-cc7de05e166e90320d7d896e0f72a19d.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:300;src:local("Merriweather Light italic"),local("Merriweather-Lightitalic"),url(/static/merriweather-latin-300italic-8fe52a48089d6ebe46db0b8e7cc66263.woff2) format("woff2"),url(/static/merriweather-latin-300italic-e1331f5397c2a673f9d3765138debdb5.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:400;src:local("Merriweather Regular "),local("Merriweather-Regular"),url(/static/merriweather-latin-400-8276fdb72ae8f4714d4e6eba704cc39f.woff2) format("woff2"),url(/static/merriweather-latin-400-69f09800f4f6479d06e44eba837df872.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:400;src:local("Merriweather Regular italic"),local("Merriweather-Regularitalic"),url(/static/merriweather-latin-400italic-3a9be9ea9f7aa4af6de7307df21d9fc0.woff2) format("woff2"),url(/static/merriweather-latin-400italic-d76079ed7541a433a54f79316de086e9.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:700;src:local("Merriweather Bold "),local("Merriweather-Bold"),url(/static/merriweather-latin-700-fa534be7ffa380e39a7f6e03bf9a5e03.woff2) format("woff2"),url(/static/merriweather-latin-700-ba56ea84b8084b7ff9677f50d3cd81bd.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:700;src:local("Merriweather Bold italic"),local("Merriweather-Bolditalic"),url(/static/merriweather-latin-700italic-1ef5edaaa20ae53ea50399884c5e48c6.woff2) format("woff2"),url(/static/merriweather-latin-700italic-534bc9e7ce93c73d73426e46acd78092.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:900;src:local("Merriweather Black "),local("Merriweather-Black"),url(/static/merriweather-latin-900-7528fb70e8a4a82c7305e72ff43ac25f.woff2) format("woff2"),url(/static/merriweather-latin-900-3799b6e2f5ed3fcccf9d7a708d7419fa.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:900;src:local("Merriweather Black italic"),local("Merriweather-Blackitalic"),url(/static/merriweather-latin-900italic-e1b4d2aaa78e12ad84aaf8a56321e4c2.woff2) format("woff2"),url(/static/merriweather-latin-900italic-2ae22f731b3424e8dbb4b37f7ca6e708.woff) format("woff")}code[class*=language-],pre[class*=language-]{color:#000;background:none;text-shadow:0 1px #fff;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-]::selection,code[class*=language-] ::selection,pre[class*=language-]::selection,pre[class*=language-] ::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.token.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#9a6e3a;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.class-name,.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}</style><meta name="generator" content="Gatsby 2.24.49"/><link rel="preconnect" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><link rel="icon" href="/favicon-32x32.png?v=4a9773549091c227cd2eb82ccd9c5e3a" type="image/png"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><title data-react-helmet="true">Mercurial Guide for Firefox Workflow | Sonia Singla</title><meta data-react-helmet="true" name="description" content="Figuring out how to fix the problems in Mercurial is near to impossible. Yes, you heard me right, and it&#x27;s very easy to screw up. Mercurial documentation has this chicken and egg problem where you can&#x27;t search for how to get yourself out of a mess unless you already know the name of the thing you need to know about to fix your problem."/><meta data-react-helmet="true" property="og:title" content="Mercurial Guide for Firefox Workflow"/><meta data-react-helmet="true" property="og:description" content="Figuring out how to fix the problems in Mercurial is near to impossible. Yes, you heard me right, and it&#x27;s very easy to screw up. Mercurial documentation has this chicken and egg problem where you can&#x27;t search for how to get yourself out of a mess unless you already know the name of the thing you need to know about to fix your problem."/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="soniasinglas"/><meta data-react-helmet="true" name="twitter:title" content="Mercurial Guide for Firefox Workflow"/><meta data-react-helmet="true" name="twitter:description" content="Figuring out how to fix the problems in Mercurial is near to impossible. Yes, you heard me right, and it&#x27;s very easy to screw up. Mercurial documentation has this chicken and egg problem where you can&#x27;t search for how to get yourself out of a mess unless you already know the name of the thing you need to know about to fix your problem."/><link as="script" rel="preload" href="/webpack-runtime-1d435273c69cc444b356.js"/><link as="script" rel="preload" href="/framework-fd2b85530eec85104a39.js"/><link as="script" rel="preload" href="/styles-fa79fef4936efa84b233.js"/><link as="script" rel="preload" href="/app-0412003f0c3b18930413.js"/><link as="script" rel="preload" href="/commons-67561e072318cfa2f451.js"/><link as="script" rel="preload" href="/fab8c9364b01cebfd3503fc18011994750f493ff-c0e8d54e03f0215531b5.js"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-f141ac691649bf7b6c4a.js"/><link as="fetch" rel="preload" href="/page-data/firefox-mercurial/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1246554614.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2841359383.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div style="margin-left:auto;margin-right:auto;max-width:42rem;padding:2.625rem 1.3125rem"><header><h3 style="font-family:Montserrat, sans-serif;margin-top:0"><a style="box-shadow:none;color:inherit" href="/">Sonia Singla</a></h3></header><main><article><header><h1 style="margin-top:1.75rem;margin-bottom:0">Mercurial Guide for Firefox Workflow</h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem">September 08, 2020</p></header><section><p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/64cc6f59355280b69704b37994d8a2d3/d9ed5/scm.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 60.810810810810814%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAxUlEQVQoz52T2QqFMBBDq1XrWi0uKPj/vzmXU6jo2+08hBEKmSQTzTiOMk2TNE0jxpgHRVGoYPq+l67rhOmck7Zt47TWfhb8DdRBuK6reO8FxcMw6AnneY6qzvOU4zgilmWRsix1hFglv2Qd8jeyibEIEfOdJ7b5zrZOhhwhhPCAGOq61lkmLxTd9y3Xdcm+7/FALMJyrEKu5XSUbdsiGSqZvGVbTllxXawmUCEWqXqIZZBKTX5VVel7SG2wSH4oTb+ihvQHlyX7vGYnAMoAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="scm"
+        title="scm"
+        src="/static/64cc6f59355280b69704b37994d8a2d3/fcda8/scm.png"
+        srcset="/static/64cc6f59355280b69704b37994d8a2d3/12f09/scm.png 148w,
+/static/64cc6f59355280b69704b37994d8a2d3/e4a3f/scm.png 295w,
+/static/64cc6f59355280b69704b37994d8a2d3/fcda8/scm.png 590w,
+/static/64cc6f59355280b69704b37994d8a2d3/efc66/scm.png 885w,
+/static/64cc6f59355280b69704b37994d8a2d3/c83ae/scm.png 1180w,
+/static/64cc6f59355280b69704b37994d8a2d3/d9ed5/scm.png 2880w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<center><sub>Mercurial Distributed SCM</sub></center><br/>
+<p>To collaborate with the other developers on a project around the world, all the programmers need some kind of <code class="language-text">Version Control System (VCS)</code> to manage the source code. </p>
+<p>While most of the developers use git for a version control system, Mozilla uses <code class="language-text">Mercurial</code> to manage the Firefox source code, and also, several other projects of Mozilla reside on GitHub in a git repository.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/8ec22e07cb0c55221a0047d98b628ea7/c929c/hgmr.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 46.621621621621614%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABeElEQVQoz52SW27bMBBFtYlupSvIRruB9js/AYqiaQo0dqyHJceBa1sPP2TJtkTLql6nQ6Vt+pMECIELcjj3Xg45NOLNjk8fLtlECUmacDoVVFVF23W07Sv4w+lkbpq2h3F99YX37y74/tlj+nPG3A9Zb3e8ZegDjFwpPHdClucUxZljlqPUSSo9oXN5rmNFlmWyp4RT9Fy9X5Zln9PQt9LDSPd7XM9jZJrYtoPrejjjcR9r3I1MHGfMj9sBd/aE28GQbzc3/+VHDIZDttvtk6FOmJbdJzwx12vLtrm/n2KaFrYYOpbJ5OtHZlOPhR8QxzHz+YIgDAmCgNVq9WiopPTIX0pTAoJozSJYs4oifCH5Ilwsl4RhRCCcJroWSf3sG+rmGEUDcQlJC+d4Rpc+vPLwgrbtxXr+Cx33hklR48YFVtKxC8dUGws5g6au5Rs0PZ5EjS7j5Qpr6Y7KM84q46hKDqoiPRylwwVxsieR9S498Kuq/4lewm+hnaqgKVmLfgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="hgmr"
+        title="hgmr"
+        src="/static/8ec22e07cb0c55221a0047d98b628ea7/fcda8/hgmr.png"
+        srcset="/static/8ec22e07cb0c55221a0047d98b628ea7/12f09/hgmr.png 148w,
+/static/8ec22e07cb0c55221a0047d98b628ea7/e4a3f/hgmr.png 295w,
+/static/8ec22e07cb0c55221a0047d98b628ea7/fcda8/hgmr.png 590w,
+/static/8ec22e07cb0c55221a0047d98b628ea7/efc66/hgmr.png 885w,
+/static/8ec22e07cb0c55221a0047d98b628ea7/c83ae/hgmr.png 1180w,
+/static/8ec22e07cb0c55221a0047d98b628ea7/c929c/hgmr.png 1218w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<center><sub>Annoying and Funny 👩🏻‍💻</sub></center><br/>
+<p>Figuring out how to fix the problems in <code class="language-text">Mercurial</code> is near to impossible. Yes, you heard me right, and it’s very easy to screw up. Mercurial documentation has this chicken and egg problem where you can’t search for how to get yourself out of a mess unless you already know the name of the thing you need to know about to fix your problem.</p>
+<p>Here, are some of the <code class="language-text">Mercurial</code> commands with the focus on Firefox development to help you get started:</p>
+<h2>1. hg commit</h2>
+<p>This command is used to create a commit along with the message, and commit all changes into a new changeset.</p>
+<p>This command has the same format as that of git.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/cad9536e8d8cdfbc297bede61d5d046d/e515d/carbon4.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 31.08108108108108%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAABNUlEQVQY05WOW0sCURSFt5U0UlmklQ+R0UNeRvslQRfK0tREZwiCIPoLQfXQBSx6KHtLJa1MkzBxpiILrB+12mc0KoKgh4+11t7nrHPo4u4Jl9UXXGtvKNQauNH/R0FroPjwjqvqK0QX5St1bO0dQ1UVhBUVwUgcwWgcoWhTRRZ+aTmBkCCa+OljCoLhGDZ3j5CvPINy93UsBiJwdhMsVkI7ETqYtpaaGfoDU0tn5haQE4XZ8iOm5wOwmAljDhuG+iSMDJow6iAM2wlO9gP8UH8Xwd5D6JXIyDb+gLWT+DxB4sLJqVlkyjooc6tjZW0DXo8LPp+f1QvZ64JfdhkzYy67OTM+N++a+ukn/B4+Mw5ldR3pkgZKl2o4zRZxcHKOncPUF8nU79yabSe/78+wz3dFh+j6AIYy/j/gpxwKAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="carbon4"
+        title="carbon4"
+        src="/static/cad9536e8d8cdfbc297bede61d5d046d/fcda8/carbon4.png"
+        srcset="/static/cad9536e8d8cdfbc297bede61d5d046d/12f09/carbon4.png 148w,
+/static/cad9536e8d8cdfbc297bede61d5d046d/e4a3f/carbon4.png 295w,
+/static/cad9536e8d8cdfbc297bede61d5d046d/fcda8/carbon4.png 590w,
+/static/cad9536e8d8cdfbc297bede61d5d046d/efc66/carbon4.png 885w,
+/static/cad9536e8d8cdfbc297bede61d5d046d/c83ae/carbon4.png 1180w,
+/static/cad9536e8d8cdfbc297bede61d5d046d/e515d/carbon4.png 1430w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<center><sub></sub></center>
+<p><strong><em>Note: A changeset in Mercurial is a collection of changes to files in the code base, and it is identified using a changeset ID.</em></strong></p>
+<h2>2. hg diff</h2>
+<p>This command is used to see all the changes we have made to different files/directories in the code base comparing against the parent directory. It displays all the uncommitted changes made along with the file names.</p>
+<p>The output of <code class="language-text">hg diff</code> will look similar to the snippet below:</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/f98ca9d594fb8ca9710055a08e74e206/c7bb6/carbon3.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 41.21621621621622%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABbklEQVQoz32RuU7DQBRF/QmQxbHjZew43h2bLBKioqFAQoIfCVQQCpJ00EFF0kGWLgtQJSglX3Z5dkwUFlEc3ftGM/e9meEmyw+MXlcYzJYYzpcYpGz7b8x+kK6N31aIs7in6QJnpyeI9qvwozqCasperI21EhVaC6n+Ra0BrxLh8OgYz7MFuN5ohjCKwIoCyiqDxRipCpO8yTSYmgadalGSUZRjFEiKstYUXhDg+BX0hlNwj8MJwkodkRfBc3x4tg/fDhAQvuuiZGoQJAGZPI/sH+QLInYyWVhegDiLi1MdL4Spl2FrBgyZwWYGLKoZ1Uw3oGo6aQlaae1jYi/TLXhBxG42B3sTOJrCdDxYkoIDmrBhOaiZNixFBV8QkgMFUUy1mOi2z9OeZELXXwf2x3O4QQiJuummBWaUoVJ3gd4sxxeSA//xNaFDGX36D2708o723QOaV200L282nLc6uGh1ic7/XHeTve3be8RZnxjVJoAU7tByAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="carbon3"
+        title="carbon3"
+        src="/static/f98ca9d594fb8ca9710055a08e74e206/fcda8/carbon3.png"
+        srcset="/static/f98ca9d594fb8ca9710055a08e74e206/12f09/carbon3.png 148w,
+/static/f98ca9d594fb8ca9710055a08e74e206/e4a3f/carbon3.png 295w,
+/static/f98ca9d594fb8ca9710055a08e74e206/fcda8/carbon3.png 590w,
+/static/f98ca9d594fb8ca9710055a08e74e206/efc66/carbon3.png 885w,
+/static/f98ca9d594fb8ca9710055a08e74e206/c83ae/carbon3.png 1180w,
+/static/f98ca9d594fb8ca9710055a08e74e206/c7bb6/carbon3.png 1986w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<center><sub></sub></center>
+<h2>3. hg shelve</h2>
+<p>The shelve extension provides the shelve command to enable uncommitted work to be saved to a standalone file without being committed to the repository. It has been quite useful whenever there’s a need to switch tasks, but not ready to commit the current work we have done.</p>
+<p>We can enable the extension by adding the following lines to our <code class="language-text">~/.hgrc</code> or <code class="language-text">Mercurial.ini</code> file:</p>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token punctuation">[</span>extensions<span class="token punctuation">]</span>
+<span class="token assign-left variable">shelve</span><span class="token operator">=</span></code></pre></div>
+<p>The usage of this extension has been provided in the snippet below:</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/5d94c21d80663c261d225ae05a83f492/11d70/carbon5.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 54.05405405405405%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABrElEQVQoz42QO0/bYBSGTxxfsJ04BChih3JLhWObtf0FTKyVOnQvMCCQKsrWittAFW4DDUPVpNAsVbioC7SI/xSm83I+20FJ1UuGR8859uf3O8dUu/iJL9+vud68Rv28m1qzJ/irZJxe/uKzq9sWvX75Cs9fhFyOZhGWQwQdhOG/icJImZU/7B7xtx93LQpK03CzxI5OsIngaKR6uOIM9QSTeGl1nU+vbu8pKkcYcEx+4jnwrCz6HT0mL7Wja3CMFP0PJO/YlgEWV96p1e8pmPGRN4gH8yaKjiZIqK3ByhD6tG7Uh213wOrs4spaEhj6ATxTiwMHcxm4RgY5IW9pKUn9W8jfAyMJLNo6jxRzMlkWhT5NVhfE7VpZTaY+tNpONxCzSR2Bge/LhGplK/5vBVtH0dVlWkPW1zHgGkLipE/qYc+MeznH6tKFx8CSH6885BkY6ScM5eRWudFMsai773yemrPiN8tvk8C5uXmUJqfYn3mGwB/D9OQYno6O9kh8lifGx7H2ficJPPzcwNZBlTcrn7BRqWJzr4qt/f+z/egT/nhcw0njkuvnN60H3YNn5XUHZhoAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="carbon5"
+        title="carbon5"
+        src="/static/5d94c21d80663c261d225ae05a83f492/fcda8/carbon5.png"
+        srcset="/static/5d94c21d80663c261d225ae05a83f492/12f09/carbon5.png 148w,
+/static/5d94c21d80663c261d225ae05a83f492/e4a3f/carbon5.png 295w,
+/static/5d94c21d80663c261d225ae05a83f492/fcda8/carbon5.png 590w,
+/static/5d94c21d80663c261d225ae05a83f492/efc66/carbon5.png 885w,
+/static/5d94c21d80663c261d225ae05a83f492/c83ae/carbon5.png 1180w,
+/static/5d94c21d80663c261d225ae05a83f492/11d70/carbon5.png 1802w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<center><sub></sub></center>
+<h2>4. hg strip</h2>
+<p>The strip extension provides the strip command to remove the changeset and all its descendants  from the repository completely.  It will be as if the changes never existed.  Be careful when using this on public changesets.</p>
+<p>We can enable the extension by adding the following lines to our <code class="language-text">~/.hgrc</code> or <code class="language-text">Mercurial.ini</code> file:</p>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token punctuation">[</span>extensions<span class="token punctuation">]</span>
+strip <span class="token operator">=</span></code></pre></div>
+<p>To remove a changeset and its descendants from the repository:</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/b38636bc146b63ad706dee7abc3d69c1/d0c2f/carbon2.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 32.43243243243243%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAABO0lEQVQY05WNS0sCYRSGZ5uQ46hNpuNcnfEu0Q+qRZSaUknGjLbS2qRCLXLjKsiElKQLdNWgC+S/evvmG3HhrsXDe8554TnMzdMnBq8/uH2fYPj2i+Ho/9yNJ9Rhu5j+8xfOO12UzSp2zApy+ybyJYuSK5lTLAfSzZOf3s86V7BdTP/lG9nCATIyB7/mh9vjoSyy7Gx2YMFyHDxejiY7Tc7nw4LLhc1CCQPiYnqPH9jIFsHxXsgRESFlBaIiQo0qENUwwooAURMh6xKCUgB8aAl8kAcvOBkILxO5G+tbRdgupvcwRnbvEIZhIJ7KQDNiiCVSSK+uIZpIwognEUumCSmoukGeaZDUyAxZ0yFIMrZ3y47w+n6E9mUfteYFKsdNQgNWvQGzdkqzUnd2OpO+OsfRSQv1Vps6usT1B3V8BEIk58OZAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="carbon2"
+        title="carbon2"
+        src="/static/b38636bc146b63ad706dee7abc3d69c1/fcda8/carbon2.png"
+        srcset="/static/b38636bc146b63ad706dee7abc3d69c1/12f09/carbon2.png 148w,
+/static/b38636bc146b63ad706dee7abc3d69c1/e4a3f/carbon2.png 295w,
+/static/b38636bc146b63ad706dee7abc3d69c1/fcda8/carbon2.png 590w,
+/static/b38636bc146b63ad706dee7abc3d69c1/efc66/carbon2.png 885w,
+/static/b38636bc146b63ad706dee7abc3d69c1/c83ae/carbon2.png 1180w,
+/static/b38636bc146b63ad706dee7abc3d69c1/d0c2f/carbon2.png 1362w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<center><sub></sub></center>
+<p><strong><em>Note: If you want to read more about extensions, you can visit <a href="https://mozilla-version-control-tools.readthedocs.io/en/latest/hgmozilla/extensions.html">here</a>.</em></strong></p>
+<h2>5. hg histedit</h2>
+<p>The histedit extension provides the histedit command to selecting (<strong>pick</strong>), combining (<strong>fold</strong> or <strong>roll</strong>), rejecting (<strong>drop</strong>), modifying (<strong>edit</strong>), or updating the commit message (<strong>mess</strong>) of already committed changesets.</p>
+<p>We can enable the extension by adding the following lines to our <code class="language-text">~/.hgrc</code> or <code class="language-text">Mercurial.ini</code> file:</p>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token punctuation">[</span>extensions<span class="token punctuation">]</span>
+histedit <span class="token operator">=</span></code></pre></div>
+<p>If we run hg histedit , an editor will open that will look like the snapshot below:<br></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/262196787d0011c8effc144f1bb0084a/d9ed5/histed.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 62.83783783783784%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAABD0lEQVQ4y+2PyUrEQBRFK/NEBsnURG3tTC0kJHGh2ErT+in+o9BQATd+2DWvIJJFr9SNYMHhvner6lY99vL4jsN+xPPE4WnEfsexu+d4uOO47Th6oucYhhFDP6Jvp7ob0TUcbXlEWx3RFG/o6g+k4StYnm7QFg1u1ltsL2uUWTlRTOTYpNeoLyrkq43waL8+r1BNFKscV+EaZ1oAT3ERKD5MyQCbFr6NdNL/QSD7D/wbgbIsQ1EUkP5KYBAEiKIIvu/DcRyBpmkCXdcFy54eliRJ6BLyVFUF8zwPWZYhSRJBGIaI4xhpmopwOrSELp6CfkeTMtu24bouKJiUQkgJy7JgmuYXhmEIb/bneu5pik/5oCV285p1XwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="histed"
+        title="histed"
+        src="/static/262196787d0011c8effc144f1bb0084a/fcda8/histed.png"
+        srcset="/static/262196787d0011c8effc144f1bb0084a/12f09/histed.png 148w,
+/static/262196787d0011c8effc144f1bb0084a/e4a3f/histed.png 295w,
+/static/262196787d0011c8effc144f1bb0084a/fcda8/histed.png 590w,
+/static/262196787d0011c8effc144f1bb0084a/efc66/histed.png 885w,
+/static/262196787d0011c8effc144f1bb0084a/c83ae/histed.png 1180w,
+/static/262196787d0011c8effc144f1bb0084a/d9ed5/histed.png 2880w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<center><sub></sub></center>
+<p><strong>Note: If you want to know about histedit extension in more detail, visit <a href="https://docs.rhodecode.com/RhodeCode-Enterprise/tutorials/squash-commits.html">here</a>.</strong></p>
+<h2>6. hg bookmark</h2>
+<p>Bookmarks are labels on changesets to help track lines of development. Bookmarks are unversioned and can be moved, renamed, and deleted. Deleting or moving a bookmark does not effect on the associated changesets. They work similarly to the git notion of branches, closet not the same.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/317e1f1e5c0c6dd03d87841cd2b09bc5/a3767/carbon0.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 55.4054054054054%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAAB4ElEQVQoz42QW08TQRiGZ4+zh9nOdnd2drtY1CvjhT/HeoAgpAmJiQkIIUVM6cETkiBpARMPEVDA0haT1gO1kCZi4Hf5DVVi1AuTZ77MJPPM+2ZQff8I+NA9aXaPm1//g+7x3sFJoyMstLv/baP5pby0Vlyolp9WyotAtU9psfIvqo+ePV9vfAYR1TtHhYXKFZ9cukx0QzFlyVAkrIhpqX8jmypysDb/eKne+Y52PvZyhSecaDHTqaUwogIR1QNHtRRkyMj8HXgUpirP5B+AiLZbh9NzpcBxYt9Nh4y7xFYRxXICS1gSMgakn5iKACrcnS1stQ4RrKm5ErONQU4GGBnwrYuRE1LTJ/g8J56thgktcvWQ6rGHXVPpy5O5+a3WQV8uBjZJeTQOkixhneNe5NEwmUj5FKramgRYKiKaDLV1BLWlydkz+V6RO8aFkESulUoagwFMizlGOrBD14RM5ohwTrU4idPMgPyJXF7U3m73ZvIPA0Jin0Km75ic2iLcpzGjnBIIh1j4CDE1AdSevl/aaZ9+2PLLd9nbE9dHsleHRq8Nj2WAoVuZ4dHM6fHGSPYMuHNzbHz8ztTyi7cgovefept7nde19tpmY2V9t8/qr83Km9ofrG7UX9XaoID4A1zEzSD9J3qjAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="carbon0"
+        title="carbon0"
+        src="/static/317e1f1e5c0c6dd03d87841cd2b09bc5/fcda8/carbon0.png"
+        srcset="/static/317e1f1e5c0c6dd03d87841cd2b09bc5/12f09/carbon0.png 148w,
+/static/317e1f1e5c0c6dd03d87841cd2b09bc5/e4a3f/carbon0.png 295w,
+/static/317e1f1e5c0c6dd03d87841cd2b09bc5/fcda8/carbon0.png 590w,
+/static/317e1f1e5c0c6dd03d87841cd2b09bc5/efc66/carbon0.png 885w,
+/static/317e1f1e5c0c6dd03d87841cd2b09bc5/c83ae/carbon0.png 1180w,
+/static/317e1f1e5c0c6dd03d87841cd2b09bc5/a3767/carbon0.png 1210w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<center><sub></sub></center>
+<h2>7. hg amend</h2>
+<p>This command is  used to amend the parent of a working directory with a new commit that contains the changes in the parent in addition to those currently reported by <code class="language-text">hg status</code> if there are any. </p>
+<p>Let me explain the above scenario in simple words: For instance, consider we made a commit, and forgot to modify some lines of code, made a typo in the commit message, or anything else, we can fix that by running the command as shown in the snippet below:</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/4300192aeeffe2ebe6da02f4de9a6dea/bc3ae/carbon8.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 35.13513513513513%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAABKUlEQVQoz5WO30vCUBTH79jmYrJNs5rzpR/Q/1NhgUnQSxBFRJFZhhamYq9ZD7Uge9B0sCSDFiWBCflnfbv3JqQQWA8fzv0ezv2cQxzvA47XgfvWhfv6Sev/eWh14bx0qKcNUn9u47raQDpbRCpbwH4m90M6N5h/IZnJ4+C4gKtKA8xFmDlxdIpZv4jIlAyBEEgUkSL/AV9vdvfwhF9Jqk/v2NpLIaRJmIkYCAdVTJoapi0DY5qMCd3HMQMKwj1MQ+E99g6oEhdv7iTBXFy4QYMoEVghHUG/gnFdhTWq8+1KHyMCrcJgj80Qyvp24ltYeWzhrHSD+OoaFpbimF9cxlw0xmF5GNHYCv9bPLfBXPzCsuvBrjVxeeegdFvvozaUi7ID+77JHcz1BUTtLim8CfN6AAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="carbon8"
+        title="carbon8"
+        src="/static/4300192aeeffe2ebe6da02f4de9a6dea/fcda8/carbon8.png"
+        srcset="/static/4300192aeeffe2ebe6da02f4de9a6dea/12f09/carbon8.png 148w,
+/static/4300192aeeffe2ebe6da02f4de9a6dea/e4a3f/carbon8.png 295w,
+/static/4300192aeeffe2ebe6da02f4de9a6dea/fcda8/carbon8.png 590w,
+/static/4300192aeeffe2ebe6da02f4de9a6dea/efc66/carbon8.png 885w,
+/static/4300192aeeffe2ebe6da02f4de9a6dea/c83ae/carbon8.png 1180w,
+/static/4300192aeeffe2ebe6da02f4de9a6dea/bc3ae/carbon8.png 1268w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<center><sub></sub></center>
+<h2>8. hg log</h2>
+<p>This command lists all changes committed to a repository, starting with the most recent commit we made. The listing for each changeset includes the <strong>changeset’s revision number</strong> and <strong>identifier</strong>, it’s <strong>tags</strong>, <strong>bookmarks</strong>, <strong>the changeset’s author</strong>, when it was created and summary as shown in the snippet below:</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/6d20371287705649363b3e2c1c2f2594/29007/carbon.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 35.810810810810814%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAABa0lEQVQoz42PTUsCURSGr1+jjpOWoTaO4+gIIpmfEUFoJP2CoEXRpl+SLs1NVpvKaqN9uSmz2lRSf+y8nbQWEUmLh3Pfy+V57xHdp3e6fHhDpzegy/4Av3n9BwO6fnzDDbtEu/dC25tbWCplKVcsIJ/NIZvJIsczn8ujkC+MpVgsYi6dprX1DVzcv5I4venTPAumnBZy2wQmJBsCPg8m3RJcFgGLGI+NEUJQKpnEefeBxNHFLZWXSjCDIfJ73EjGDcQjKvyKDK/LAYULFKedz9Jwyg7rDxTJDjsLM3MZtK56JI5ZuDi/AJ/DRhK3aQE/9FAAoSkvtOA0ojPBYUHAp2BSdkLmLZz8c5d1hGy3wMrC2VRqJPxcuVJZRUxVKcwi09CRTJiI6REkYsYwm0YUhhZGnO/MqI6opiIW0YZv4px1dYbKyys4Y5fo3D3T3kkbtcYBMajW97FTb6K6+zWZ7/wXtcYhNVsdtNn1AffmBPKMIsteAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="carbon"
+        title="carbon"
+        src="/static/6d20371287705649363b3e2c1c2f2594/fcda8/carbon.png"
+        srcset="/static/6d20371287705649363b3e2c1c2f2594/12f09/carbon.png 148w,
+/static/6d20371287705649363b3e2c1c2f2594/e4a3f/carbon.png 295w,
+/static/6d20371287705649363b3e2c1c2f2594/fcda8/carbon.png 590w,
+/static/6d20371287705649363b3e2c1c2f2594/efc66/carbon.png 885w,
+/static/6d20371287705649363b3e2c1c2f2594/c83ae/carbon.png 1180w,
+/static/6d20371287705649363b3e2c1c2f2594/29007/carbon.png 1600w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<center><sub></sub></center>
+<h2>9. hg pull &#x26;&#x26; hg update —clean</h2>
+<p>This command is used to pull the latest changes (commits landed on <strong><em>Mozilla Central</em></strong> between the time when you last updated your local code base and now) and update the working copy of the codebase. Here, <code class="language-text">hg pull</code> pulls all the changes but doesn’t automatically update your working directory with the changes, so we use <code class="language-text">hg update --clean</code> for that purpose.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/a7d404b233499d04ff94e374aee294fa/6569d/carbon6.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 36.486486486486484%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAABPklEQVQoz5WOTU/CQBRFx0AprRakUk3du8dCiT/GDRtMESOaFDXRHRvFFfixQXBTFFRiwChEhCga9VddZ4ZGgZ2Lk3tnXnLeI7XHV9y033HX/ULj+RMNlv/kvvfNHcxF6k9vKJaqsLN72NjZhZWxYW3+kXLfqdG/kVkqk+VZKDmotwdU2BnAWt/GkkIQ0KbgIQTeETwTTP4JFEJJprdw2/kAqbb6SKylIXkJwjM+aIoPYUWAFhh2PSTyrock6KpEu4iFWf8vi6oMRSDccfXQZ8IeVhNJSHTLnOJHUBSgin6EAxKm6ZL5oAzZM7xMIOPJ8LkXMkeVCZ3mC+z9HOLmCkwzjljUpNCk3TCiiMWGGYksuxhjnc0Y9kEOzMWFF7UWCuVr5M8qODotcw5PxpPPXPIurB+fX6JYqXGH0+ziB2x3IO01YQlZAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="carbon6"
+        title="carbon6"
+        src="/static/a7d404b233499d04ff94e374aee294fa/fcda8/carbon6.png"
+        srcset="/static/a7d404b233499d04ff94e374aee294fa/12f09/carbon6.png 148w,
+/static/a7d404b233499d04ff94e374aee294fa/e4a3f/carbon6.png 295w,
+/static/a7d404b233499d04ff94e374aee294fa/fcda8/carbon6.png 590w,
+/static/a7d404b233499d04ff94e374aee294fa/efc66/carbon6.png 885w,
+/static/a7d404b233499d04ff94e374aee294fa/c83ae/carbon6.png 1180w,
+/static/a7d404b233499d04ff94e374aee294fa/6569d/carbon6.png 1328w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<center><sub></sub></center>
+<h2>10. hg rebase</h2>
+<p>This command has many use cases, and rebase allows moving changesets between <strong>branches</strong>, <strong>reordering changesets</strong>, or maybe <strong>collapsing changesets</strong>.</p>
+<p>The different use cases have been depicted in the snippet below:</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/2f353df83a5ae71c3df0d2ed3c81edf3/d0c2f/carbon7.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 49.32432432432432%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABy0lEQVQoz5WRS09TQRiGp5dz7WnPFQh7l5jYgj+DapUgC4lRQwpqMBqKCxMXblyYuPCSmBBjTbiEasEAAUlpiJd4+VWP35zWgGHVxZPvMjPvvPON2tz/ysfDH7SPfrPV+cWWjgOy3f1Du/MTraVaB994ubLGUuMRdxvLzC8uDcTC/Qb1ew958uxFX/DwO/N3HnDOU3iRIqf+J6vO9k5jCEoYr4yzsXeMWt895sbcAgVbMZK4JL7FUCDEDnFkMxTajAjDUidSx7rWe0qmRJPR0KFoKC5OTPD+0wFqbafL7K06BUcRDbv4RYOwZOEnsjG0iAKbSOogtikJgYgGTh43r1I8M5s6LV8o8661dyJYLCiS0QKhuNMuQi2e2KlT3QskD7w8oZ3Fd7JYGYWd1aIZMmcEb9cpuRk57BIVTWJxFGlReVrii0PPJJR+5BnEEhOhaOVwRMwzc6nDSrnSE9QzvH5zLh2sU5KbTblV5mnKJxluL7dkzVS9qLFPfVi+/ynnx8b+zfCIp89fMTUzS/XqNapXpqnWppnUUZis9ajWTvK07q9fkjOXp2ZYbDymqQXXd7s0219Y2djhzYcWr5ubA9Li7eq2uNtn9XOHv0oheOU1GI5XAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="carbon7"
+        title="carbon7"
+        src="/static/2f353df83a5ae71c3df0d2ed3c81edf3/fcda8/carbon7.png"
+        srcset="/static/2f353df83a5ae71c3df0d2ed3c81edf3/12f09/carbon7.png 148w,
+/static/2f353df83a5ae71c3df0d2ed3c81edf3/e4a3f/carbon7.png 295w,
+/static/2f353df83a5ae71c3df0d2ed3c81edf3/fcda8/carbon7.png 590w,
+/static/2f353df83a5ae71c3df0d2ed3c81edf3/efc66/carbon7.png 885w,
+/static/2f353df83a5ae71c3df0d2ed3c81edf3/c83ae/carbon7.png 1180w,
+/static/2f353df83a5ae71c3df0d2ed3c81edf3/d0c2f/carbon7.png 1362w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<center><sub></sub></center>
+<p>Here, <code class="language-text">-s</code>  flag depicts the <strong>source changesetID</strong>, <code class="language-text">-d</code> flag tells the <strong>destination changesetID</strong>. We can use Mercurial tags like <code class="language-text">central</code>, <code class="language-text">tip</code>, etc. in place of <strong>changesetID</strong> as shown in the snippet above.</p>
+<h2>11. hg wip</h2>
+<p>This command gives us a tree view on the <strong><em>heads/features</em></strong>, and tracks down all the relevant changesets we have created while working on multiple bugs. I’ll highly recommend you to read hg wip command described by <a href="http://jordi.inversethought.com/blog/customising-mercurial-like-a-pro/">Customizing Mercurial Like a Pro</a>. It has so much information packed into such a small space, all color-coded for our convenience.</p>
+<p>The output of <code class="language-text">hg wip</code> should look similar to the snippet below:</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/c4aa170b9b0a01fb641ae192306f802b/d9ed5/hgwip.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 19.594594594594593%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAp0lEQVQY033O0Q6DIAwF0KJMQFkBRUQTk/3/T95V3RIflj2c3LYPbanNGvQiuDxgbTfs+4xtS6hjQkkRcwziyIR1mrDmjGWcUKXOHOCNgSaCEnTQgwVFD+sZlWXp6oRFPVRzKgsjzywZhRw46hLAwcI6hc4QzAelKaBjg94b5KfDmMR4SekSI4PZo+8tuq7FQzfQomnkM0VnflEpVV5VN/Sjp9uc/noD4FBY/fBBt90AAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="hgwip"
+        title="hgwip"
+        src="/static/c4aa170b9b0a01fb641ae192306f802b/fcda8/hgwip.png"
+        srcset="/static/c4aa170b9b0a01fb641ae192306f802b/12f09/hgwip.png 148w,
+/static/c4aa170b9b0a01fb641ae192306f802b/e4a3f/hgwip.png 295w,
+/static/c4aa170b9b0a01fb641ae192306f802b/fcda8/hgwip.png 590w,
+/static/c4aa170b9b0a01fb641ae192306f802b/efc66/hgwip.png 885w,
+/static/c4aa170b9b0a01fb641ae192306f802b/c83ae/hgwip.png 1180w,
+/static/c4aa170b9b0a01fb641ae192306f802b/d9ed5/hgwip.png 2880w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<center><sub></sub></center><br><br>
+<p>The above mercurial commands are more than enough to know and get the work started.</p>
+<p>Contribute more, and more to the <a href="https://codetribute.mozilla.org/">Firefox</a> projects, if you need help with anything or messed up, feel free to drop me a message or on the <a href="https://matrix.to/#/!ykhjAGdElNmYcYkwvB:mozilla.org?via=mozilla.org&#x26;via=matrix.org&#x26;via=privacytools.io">Introduction</a> channel. </p>
+<p>If I missed an important detail or you wish to add anything to this blog post, please feel free to ping me. I look forward to hearing feedback. That’s how we learn 🤗</p>
+<p>Happy Mercurial !! 😻</p></section><hr style="margin-bottom:1.75rem"/><footer><div style="display:flex;margin-bottom:4.375rem"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:50px;height:50px;margin-right:0.875rem;margin-bottom:0;min-width:50px;border-radius:100%"><img aria-hidden="true" src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAECAwQG/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/2gAMAwEAAhADEAAAAe2fP7lVUEQFoC//xAAcEAACAgIDAAAAAAAAAAAAAAABAgARAxAEEyH/2gAIAQEAAQUCPIAmf1WyG6nYzSjoa//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABURAQEAAAAAAAAAAAAAAAAAABEg/9oACAECAQE/AWP/xAAcEAABBAMBAAAAAAAAAAAAAAABACExUQIQESD/2gAIAQEABj8CA7KeEzDRxq/P/8QAHBABAAICAwEAAAAAAAAAAAAAAQARITFBUWGB/9oACAEBAAE/IbosvfEZrVy3LWp0RslRKuoeh9Jx3MFjif/aAAwDAQACAAMAAAAQux8D/8QAFhEAAwAAAAAAAAAAAAAAAAAAABAR/9oACAEDAQE/ECv/xAAYEQACAwAAAAAAAAAAAAAAAAAAEBExYf/aAAgBAgEBPxChOv8A/8QAHRABAAMBAAIDAAAAAAAAAAAAAQARITFBUWGBsf/aAAgBAQABPxBJkdCVS55Gt/XxX3GVeoKmZEHgXsXi6qtew0/UlZVeOwYFtduehn//2Q==" alt="Sonia Singla" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms;border-radius:50%"/><noscript><picture><source srcset="/static/8a15296f17fbbe951fb684f3a9db7129/99438/profile-pic.jpg 1x,
+/static/8a15296f17fbbe951fb684f3a9db7129/aba1d/profile-pic.jpg 1.5x,
+/static/8a15296f17fbbe951fb684f3a9db7129/b315d/profile-pic.jpg 2x" /><img loading="lazy" width="50" height="50" srcset="/static/8a15296f17fbbe951fb684f3a9db7129/99438/profile-pic.jpg 1x,
+/static/8a15296f17fbbe951fb684f3a9db7129/aba1d/profile-pic.jpg 1.5x,
+/static/8a15296f17fbbe951fb684f3a9db7129/b315d/profile-pic.jpg 2x" src="/static/8a15296f17fbbe951fb684f3a9db7129/99438/profile-pic.jpg" alt="Sonia Singla" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><p>Personal blog by <strong>Sonia Singla</strong> <!-- -->, CNCF Intern 2020 | Outreachy 2019 Intern at Mozilla | Open-Source Contributor at Mozilla | Mozilla Representative | 20 y.o 👩🏻‍💻<!-- --> <a href="https://twitter.com/soniasinglas">You can follow me on Twitter</a></p></div></footer></article><nav><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/most-cb-program/">← <!-- -->Get the most out of Community Bridge Program</a></li><li></li></ul></nav></main><footer>© <!-- -->2020<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.org">Gatsby</a></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-167005401-1', 'auto', {});
+      
+      
+      
+      
+      
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/firefox-mercurial/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-88d9aed314b16f9b2adc.js"],"app":["/app-0412003f0c3b18930413.js"],"component---src-pages-404-js":["/component---src-pages-404-js-f7a3a65ed08052a95b44.js"],"component---src-pages-index-tsx":["/component---src-pages-index-tsx-02f917de19f4461c6df9.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-f141ac691649bf7b6c4a.js"]};/*]]>*/</script><script src="/polyfill-88d9aed314b16f9b2adc.js" nomodule=""></script><script src="/component---src-templates-blog-post-js-f141ac691649bf7b6c4a.js" async=""></script><script src="/fab8c9364b01cebfd3503fc18011994750f493ff-c0e8d54e03f0215531b5.js" async=""></script><script src="/commons-67561e072318cfa2f451.js" async=""></script><script src="/app-0412003f0c3b18930413.js" async=""></script><script src="/styles-fa79fef4936efa84b233.js" async=""></script><script src="/framework-fd2b85530eec85104a39.js" async=""></script><script src="/webpack-runtime-1d435273c69cc444b356.js" async=""></script></body></html>

@@ -1,4 +1,483 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sonia Singla]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 24 Aug 2020 21:15:15 GMT</lastBuildDate><item><title><![CDATA[Get the most out of Community Bridge Program]]></title><description><![CDATA[Hello everyone, my name is Sonia 👱‍♀️, and currently, am pursuing my Bachelor’s in Information Technology from Panjab University…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/most-cb-program/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/most-cb-program/</guid><pubDate>Tue, 25 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sonia Singla]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 08 Sep 2020 17:32:46 GMT</lastBuildDate><item><title><![CDATA[Mercurial Guide for Firefox Workflow]]></title><description><![CDATA[To collaborate with the other developers on a project around the world, all the programmers need some kind of  to manage the source code…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/firefox-mercurial/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/firefox-mercurial/</guid><pubDate>Tue, 08 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/64cc6f59355280b69704b37994d8a2d3/d9ed5/scm.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60.810810810810814%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAAAxUlEQVQoz52T2QqFMBBDq1XrWi0uKPj/vzmXU6jo2+08hBEKmSQTzTiOMk2TNE0jxpgHRVGoYPq+l67rhOmck7Zt47TWfhb8DdRBuK6reO8FxcMw6AnneY6qzvOU4zgilmWRsix1hFglv2Qd8jeyibEIEfOdJ7b5zrZOhhwhhPCAGOq61lkmLxTd9y3Xdcm+7/FALMJyrEKu5XSUbdsiGSqZvGVbTllxXawmUCEWqXqIZZBKTX5VVel7SG2wSH4oTb+ihvQHlyX7vGYnAMoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;scm&quot;
+        title=&quot;scm&quot;
+        src=&quot;/static/64cc6f59355280b69704b37994d8a2d3/fcda8/scm.png&quot;
+        srcset=&quot;/static/64cc6f59355280b69704b37994d8a2d3/12f09/scm.png 148w,
+/static/64cc6f59355280b69704b37994d8a2d3/e4a3f/scm.png 295w,
+/static/64cc6f59355280b69704b37994d8a2d3/fcda8/scm.png 590w,
+/static/64cc6f59355280b69704b37994d8a2d3/efc66/scm.png 885w,
+/static/64cc6f59355280b69704b37994d8a2d3/c83ae/scm.png 1180w,
+/static/64cc6f59355280b69704b37994d8a2d3/d9ed5/scm.png 2880w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;&lt;sub&gt;Mercurial Distributed SCM&lt;/sub&gt;&lt;/center&gt;&lt;br/&gt;
+&lt;p&gt;To collaborate with the other developers on a project around the world, all the programmers need some kind of &lt;code class=&quot;language-text&quot;&gt;Version Control System (VCS)&lt;/code&gt; to manage the source code. &lt;/p&gt;
+&lt;p&gt;While most of the developers use git for a version control system, Mozilla uses &lt;code class=&quot;language-text&quot;&gt;Mercurial&lt;/code&gt; to manage the Firefox source code, and also, several other projects of Mozilla reside on GitHub in a git repository.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8ec22e07cb0c55221a0047d98b628ea7/c929c/hgmr.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 46.621621621621614%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABeElEQVQoz52SW27bMBBFtYlupSvIRruB9js/AYqiaQo0dqyHJceBa1sPP2TJtkTLql6nQ6Vt+pMECIELcjj3Xg45NOLNjk8fLtlECUmacDoVVFVF23W07Sv4w+lkbpq2h3F99YX37y74/tlj+nPG3A9Zb3e8ZegDjFwpPHdClucUxZljlqPUSSo9oXN5rmNFlmWyp4RT9Fy9X5Zln9PQt9LDSPd7XM9jZJrYtoPrejjjcR9r3I1MHGfMj9sBd/aE28GQbzc3/+VHDIZDttvtk6FOmJbdJzwx12vLtrm/n2KaFrYYOpbJ5OtHZlOPhR8QxzHz+YIgDAmCgNVq9WiopPTIX0pTAoJozSJYs4oifCH5Ilwsl4RhRCCcJroWSf3sG+rmGEUDcQlJC+d4Rpc+vPLwgrbtxXr+Cx33hklR48YFVtKxC8dUGws5g6au5Rs0PZ5EjS7j5Qpr6Y7KM84q46hKDqoiPRylwwVxsieR9S498Kuq/4lewm+hnaqgKVmLfgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;hgmr&quot;
+        title=&quot;hgmr&quot;
+        src=&quot;/static/8ec22e07cb0c55221a0047d98b628ea7/fcda8/hgmr.png&quot;
+        srcset=&quot;/static/8ec22e07cb0c55221a0047d98b628ea7/12f09/hgmr.png 148w,
+/static/8ec22e07cb0c55221a0047d98b628ea7/e4a3f/hgmr.png 295w,
+/static/8ec22e07cb0c55221a0047d98b628ea7/fcda8/hgmr.png 590w,
+/static/8ec22e07cb0c55221a0047d98b628ea7/efc66/hgmr.png 885w,
+/static/8ec22e07cb0c55221a0047d98b628ea7/c83ae/hgmr.png 1180w,
+/static/8ec22e07cb0c55221a0047d98b628ea7/c929c/hgmr.png 1218w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;&lt;sub&gt;Annoying and Funny 👩🏻‍💻&lt;/sub&gt;&lt;/center&gt;&lt;br/&gt;
+&lt;p&gt;Figuring out how to fix the problems in &lt;code class=&quot;language-text&quot;&gt;Mercurial&lt;/code&gt; is near to impossible. Yes, you heard me right, and it’s very easy to screw up. Mercurial documentation has this chicken and egg problem where you can’t search for how to get yourself out of a mess unless you already know the name of the thing you need to know about to fix your problem.&lt;/p&gt;
+&lt;p&gt;Here, are some of the &lt;code class=&quot;language-text&quot;&gt;Mercurial&lt;/code&gt; commands with the focus on Firefox development to help you get started:&lt;/p&gt;
+&lt;h2&gt;1. hg commit&lt;/h2&gt;
+&lt;p&gt;This command is used to create a commit along with the message, and commit all changes into a new changeset.&lt;/p&gt;
+&lt;p&gt;This command has the same format as that of git.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/cad9536e8d8cdfbc297bede61d5d046d/e515d/carbon4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 31.08108108108108%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAABNUlEQVQY05WOW0sCURSFt5U0UlmklQ+R0UNeRvslQRfK0tREZwiCIPoLQfXQBSx6KHtLJa1MkzBxpiILrB+12mc0KoKgh4+11t7nrHPo4u4Jl9UXXGtvKNQauNH/R0FroPjwjqvqK0QX5St1bO0dQ1UVhBUVwUgcwWgcoWhTRRZ+aTmBkCCa+OljCoLhGDZ3j5CvPINy93UsBiJwdhMsVkI7ETqYtpaaGfoDU0tn5haQE4XZ8iOm5wOwmAljDhuG+iSMDJow6iAM2wlO9gP8UH8Xwd5D6JXIyDb+gLWT+DxB4sLJqVlkyjooc6tjZW0DXo8LPp+f1QvZ64JfdhkzYy67OTM+N++a+ukn/B4+Mw5ldR3pkgZKl2o4zRZxcHKOncPUF8nU79yabSe/78+wz3dFh+j6AIYy/j/gpxwKAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;carbon4&quot;
+        title=&quot;carbon4&quot;
+        src=&quot;/static/cad9536e8d8cdfbc297bede61d5d046d/fcda8/carbon4.png&quot;
+        srcset=&quot;/static/cad9536e8d8cdfbc297bede61d5d046d/12f09/carbon4.png 148w,
+/static/cad9536e8d8cdfbc297bede61d5d046d/e4a3f/carbon4.png 295w,
+/static/cad9536e8d8cdfbc297bede61d5d046d/fcda8/carbon4.png 590w,
+/static/cad9536e8d8cdfbc297bede61d5d046d/efc66/carbon4.png 885w,
+/static/cad9536e8d8cdfbc297bede61d5d046d/c83ae/carbon4.png 1180w,
+/static/cad9536e8d8cdfbc297bede61d5d046d/e515d/carbon4.png 1430w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;&lt;sub&gt;&lt;/sub&gt;&lt;/center&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Note: A changeset in Mercurial is a collection of changes to files in the code base, and it is identified using a changeset ID.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;2. hg diff&lt;/h2&gt;
+&lt;p&gt;This command is used to see all the changes we have made to different files/directories in the code base comparing against the parent directory. It displays all the uncommitted changes made along with the file names.&lt;/p&gt;
+&lt;p&gt;The output of &lt;code class=&quot;language-text&quot;&gt;hg diff&lt;/code&gt; will look similar to the snippet below:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f98ca9d594fb8ca9710055a08e74e206/c7bb6/carbon3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.21621621621622%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABbklEQVQoz32RuU7DQBRF/QmQxbHjZew43h2bLBKioqFAQoIfCVQQCpJ00EFF0kGWLgtQJSglX3Z5dkwUFlEc3ftGM/e9meEmyw+MXlcYzJYYzpcYpGz7b8x+kK6N31aIs7in6QJnpyeI9qvwozqCasperI21EhVaC6n+Ra0BrxLh8OgYz7MFuN5ohjCKwIoCyiqDxRipCpO8yTSYmgadalGSUZRjFEiKstYUXhDg+BX0hlNwj8MJwkodkRfBc3x4tg/fDhAQvuuiZGoQJAGZPI/sH+QLInYyWVhegDiLi1MdL4Spl2FrBgyZwWYGLKoZ1Uw3oGo6aQlaae1jYi/TLXhBxG42B3sTOJrCdDxYkoIDmrBhOaiZNixFBV8QkgMFUUy1mOi2z9OeZELXXwf2x3O4QQiJuummBWaUoVJ3gd4sxxeSA//xNaFDGX36D2708o723QOaV200L282nLc6uGh1ic7/XHeTve3be8RZnxjVJoAU7tByAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;carbon3&quot;
+        title=&quot;carbon3&quot;
+        src=&quot;/static/f98ca9d594fb8ca9710055a08e74e206/fcda8/carbon3.png&quot;
+        srcset=&quot;/static/f98ca9d594fb8ca9710055a08e74e206/12f09/carbon3.png 148w,
+/static/f98ca9d594fb8ca9710055a08e74e206/e4a3f/carbon3.png 295w,
+/static/f98ca9d594fb8ca9710055a08e74e206/fcda8/carbon3.png 590w,
+/static/f98ca9d594fb8ca9710055a08e74e206/efc66/carbon3.png 885w,
+/static/f98ca9d594fb8ca9710055a08e74e206/c83ae/carbon3.png 1180w,
+/static/f98ca9d594fb8ca9710055a08e74e206/c7bb6/carbon3.png 1986w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;&lt;sub&gt;&lt;/sub&gt;&lt;/center&gt;
+&lt;h2&gt;3. hg shelve&lt;/h2&gt;
+&lt;p&gt;The shelve extension provides the shelve command to enable uncommitted work to be saved to a standalone file without being committed to the repository. It has been quite useful whenever there’s a need to switch tasks, but not ready to commit the current work we have done.&lt;/p&gt;
+&lt;p&gt;We can enable the extension by adding the following lines to our &lt;code class=&quot;language-text&quot;&gt;~/.hgrc&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;Mercurial.ini&lt;/code&gt; file:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;extensions&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;shelve&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The usage of this extension has been provided in the snippet below:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5d94c21d80663c261d225ae05a83f492/11d70/carbon5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.05405405405405%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABrElEQVQoz42QO0/bYBSGTxxfsJ04BChih3JLhWObtf0FTKyVOnQvMCCQKsrWittAFW4DDUPVpNAsVbioC7SI/xSm83I+20FJ1UuGR8859uf3O8dUu/iJL9+vud68Rv28m1qzJ/irZJxe/uKzq9sWvX75Cs9fhFyOZhGWQwQdhOG/icJImZU/7B7xtx93LQpK03CzxI5OsIngaKR6uOIM9QSTeGl1nU+vbu8pKkcYcEx+4jnwrCz6HT0mL7Wja3CMFP0PJO/YlgEWV96p1e8pmPGRN4gH8yaKjiZIqK3ByhD6tG7Uh213wOrs4spaEhj6ATxTiwMHcxm4RgY5IW9pKUn9W8jfAyMJLNo6jxRzMlkWhT5NVhfE7VpZTaY+tNpONxCzSR2Bge/LhGplK/5vBVtH0dVlWkPW1zHgGkLipE/qYc+MeznH6tKFx8CSH6885BkY6ScM5eRWudFMsai773yemrPiN8tvk8C5uXmUJqfYn3mGwB/D9OQYno6O9kh8lifGx7H2ficJPPzcwNZBlTcrn7BRqWJzr4qt/f+z/egT/nhcw0njkuvnN60H3YNn5XUHZhoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;carbon5&quot;
+        title=&quot;carbon5&quot;
+        src=&quot;/static/5d94c21d80663c261d225ae05a83f492/fcda8/carbon5.png&quot;
+        srcset=&quot;/static/5d94c21d80663c261d225ae05a83f492/12f09/carbon5.png 148w,
+/static/5d94c21d80663c261d225ae05a83f492/e4a3f/carbon5.png 295w,
+/static/5d94c21d80663c261d225ae05a83f492/fcda8/carbon5.png 590w,
+/static/5d94c21d80663c261d225ae05a83f492/efc66/carbon5.png 885w,
+/static/5d94c21d80663c261d225ae05a83f492/c83ae/carbon5.png 1180w,
+/static/5d94c21d80663c261d225ae05a83f492/11d70/carbon5.png 1802w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;&lt;sub&gt;&lt;/sub&gt;&lt;/center&gt;
+&lt;h2&gt;4. hg strip&lt;/h2&gt;
+&lt;p&gt;The strip extension provides the strip command to remove the changeset and all its descendants  from the repository completely.  It will be as if the changes never existed.  Be careful when using this on public changesets.&lt;/p&gt;
+&lt;p&gt;We can enable the extension by adding the following lines to our &lt;code class=&quot;language-text&quot;&gt;~/.hgrc&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;Mercurial.ini&lt;/code&gt; file:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;extensions&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+strip &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;To remove a changeset and its descendants from the repository:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b38636bc146b63ad706dee7abc3d69c1/d0c2f/carbon2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 32.43243243243243%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAABO0lEQVQY05WNS0sCYRSGZ5uQ46hNpuNcnfEu0Q+qRZSaUknGjLbS2qRCLXLjKsiElKQLdNWgC+S/evvmG3HhrsXDe8554TnMzdMnBq8/uH2fYPj2i+Ho/9yNJ9Rhu5j+8xfOO12UzSp2zApy+ybyJYuSK5lTLAfSzZOf3s86V7BdTP/lG9nCATIyB7/mh9vjoSyy7Gx2YMFyHDxejiY7Tc7nw4LLhc1CCQPiYnqPH9jIFsHxXsgRESFlBaIiQo0qENUwwooAURMh6xKCUgB8aAl8kAcvOBkILxO5G+tbRdgupvcwRnbvEIZhIJ7KQDNiiCVSSK+uIZpIwognEUumCSmoukGeaZDUyAxZ0yFIMrZ3y47w+n6E9mUfteYFKsdNQgNWvQGzdkqzUnd2OpO+OsfRSQv1Vps6usT1B3V8BEIk58OZAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;carbon2&quot;
+        title=&quot;carbon2&quot;
+        src=&quot;/static/b38636bc146b63ad706dee7abc3d69c1/fcda8/carbon2.png&quot;
+        srcset=&quot;/static/b38636bc146b63ad706dee7abc3d69c1/12f09/carbon2.png 148w,
+/static/b38636bc146b63ad706dee7abc3d69c1/e4a3f/carbon2.png 295w,
+/static/b38636bc146b63ad706dee7abc3d69c1/fcda8/carbon2.png 590w,
+/static/b38636bc146b63ad706dee7abc3d69c1/efc66/carbon2.png 885w,
+/static/b38636bc146b63ad706dee7abc3d69c1/c83ae/carbon2.png 1180w,
+/static/b38636bc146b63ad706dee7abc3d69c1/d0c2f/carbon2.png 1362w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;&lt;sub&gt;&lt;/sub&gt;&lt;/center&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Note: If you want to read more about extensions, you can visit &lt;a href=&quot;https://mozilla-version-control-tools.readthedocs.io/en/latest/hgmozilla/extensions.html&quot;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;5. hg histedit&lt;/h2&gt;
+&lt;p&gt;The histedit extension provides the histedit command to selecting (&lt;strong&gt;pick&lt;/strong&gt;), combining (&lt;strong&gt;fold&lt;/strong&gt; or &lt;strong&gt;roll&lt;/strong&gt;), rejecting (&lt;strong&gt;drop&lt;/strong&gt;), modifying (&lt;strong&gt;edit&lt;/strong&gt;), or updating the commit message (&lt;strong&gt;mess&lt;/strong&gt;) of already committed changesets.&lt;/p&gt;
+&lt;p&gt;We can enable the extension by adding the following lines to our &lt;code class=&quot;language-text&quot;&gt;~/.hgrc&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;Mercurial.ini&lt;/code&gt; file:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;extensions&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+histedit &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If we run hg histedit , an editor will open that will look like the snapshot below:&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/262196787d0011c8effc144f1bb0084a/d9ed5/histed.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.83783783783784%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAABD0lEQVQ4y+2PyUrEQBRFK/NEBsnURG3tTC0kJHGh2ErT+in+o9BQATd+2DWvIJJFr9SNYMHhvner6lY99vL4jsN+xPPE4WnEfsexu+d4uOO47Th6oucYhhFDP6Jvp7ob0TUcbXlEWx3RFG/o6g+k4StYnm7QFg1u1ltsL2uUWTlRTOTYpNeoLyrkq43waL8+r1BNFKscV+EaZ1oAT3ERKD5MyQCbFr6NdNL/QSD7D/wbgbIsQ1EUkP5KYBAEiKIIvu/DcRyBpmkCXdcFy54eliRJ6BLyVFUF8zwPWZYhSRJBGIaI4xhpmopwOrSELp6CfkeTMtu24bouKJiUQkgJy7JgmuYXhmEIb/bneu5pik/5oCV285p1XwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;histed&quot;
+        title=&quot;histed&quot;
+        src=&quot;/static/262196787d0011c8effc144f1bb0084a/fcda8/histed.png&quot;
+        srcset=&quot;/static/262196787d0011c8effc144f1bb0084a/12f09/histed.png 148w,
+/static/262196787d0011c8effc144f1bb0084a/e4a3f/histed.png 295w,
+/static/262196787d0011c8effc144f1bb0084a/fcda8/histed.png 590w,
+/static/262196787d0011c8effc144f1bb0084a/efc66/histed.png 885w,
+/static/262196787d0011c8effc144f1bb0084a/c83ae/histed.png 1180w,
+/static/262196787d0011c8effc144f1bb0084a/d9ed5/histed.png 2880w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;&lt;sub&gt;&lt;/sub&gt;&lt;/center&gt;
+&lt;p&gt;&lt;strong&gt;Note: If you want to know about histedit extension in more detail, visit &lt;a href=&quot;https://docs.rhodecode.com/RhodeCode-Enterprise/tutorials/squash-commits.html&quot;&gt;here&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;6. hg bookmark&lt;/h2&gt;
+&lt;p&gt;Bookmarks are labels on changesets to help track lines of development. Bookmarks are unversioned and can be moved, renamed, and deleted. Deleting or moving a bookmark does not effect on the associated changesets. They work similarly to the git notion of branches, closet not the same.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/317e1f1e5c0c6dd03d87841cd2b09bc5/a3767/carbon0.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 55.4054054054054%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAAB4ElEQVQoz42QW08TQRiGZ4+zh9nOdnd2drtY1CvjhT/HeoAgpAmJiQkIIUVM6cETkiBpARMPEVDA0haT1gO1kCZi4Hf5DVVi1AuTZ77MJPPM+2ZQff8I+NA9aXaPm1//g+7x3sFJoyMstLv/baP5pby0Vlyolp9WyotAtU9psfIvqo+ePV9vfAYR1TtHhYXKFZ9cukx0QzFlyVAkrIhpqX8jmypysDb/eKne+Y52PvZyhSecaDHTqaUwogIR1QNHtRRkyMj8HXgUpirP5B+AiLZbh9NzpcBxYt9Nh4y7xFYRxXICS1gSMgakn5iKACrcnS1stQ4RrKm5ErONQU4GGBnwrYuRE1LTJ/g8J56thgktcvWQ6rGHXVPpy5O5+a3WQV8uBjZJeTQOkixhneNe5NEwmUj5FKramgRYKiKaDLV1BLWlydkz+V6RO8aFkESulUoagwFMizlGOrBD14RM5ohwTrU4idPMgPyJXF7U3m73ZvIPA0Jin0Km75ic2iLcpzGjnBIIh1j4CDE1AdSevl/aaZ9+2PLLd9nbE9dHsleHRq8Nj2WAoVuZ4dHM6fHGSPYMuHNzbHz8ztTyi7cgovefept7nde19tpmY2V9t8/qr83Km9ofrG7UX9XaoID4A1zEzSD9J3qjAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;carbon0&quot;
+        title=&quot;carbon0&quot;
+        src=&quot;/static/317e1f1e5c0c6dd03d87841cd2b09bc5/fcda8/carbon0.png&quot;
+        srcset=&quot;/static/317e1f1e5c0c6dd03d87841cd2b09bc5/12f09/carbon0.png 148w,
+/static/317e1f1e5c0c6dd03d87841cd2b09bc5/e4a3f/carbon0.png 295w,
+/static/317e1f1e5c0c6dd03d87841cd2b09bc5/fcda8/carbon0.png 590w,
+/static/317e1f1e5c0c6dd03d87841cd2b09bc5/efc66/carbon0.png 885w,
+/static/317e1f1e5c0c6dd03d87841cd2b09bc5/c83ae/carbon0.png 1180w,
+/static/317e1f1e5c0c6dd03d87841cd2b09bc5/a3767/carbon0.png 1210w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;&lt;sub&gt;&lt;/sub&gt;&lt;/center&gt;
+&lt;h2&gt;7. hg amend&lt;/h2&gt;
+&lt;p&gt;This command is  used to amend the parent of a working directory with a new commit that contains the changes in the parent in addition to those currently reported by &lt;code class=&quot;language-text&quot;&gt;hg status&lt;/code&gt; if there are any. &lt;/p&gt;
+&lt;p&gt;Let me explain the above scenario in simple words: For instance, consider we made a commit, and forgot to modify some lines of code, made a typo in the commit message, or anything else, we can fix that by running the command as shown in the snippet below:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4300192aeeffe2ebe6da02f4de9a6dea/bc3ae/carbon8.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 35.13513513513513%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAABKUlEQVQoz5WO30vCUBTH79jmYrJNs5rzpR/Q/1NhgUnQSxBFRJFZhhamYq9ZD7Uge9B0sCSDFiWBCflnfbv3JqQQWA8fzv0ezv2cQxzvA47XgfvWhfv6Sev/eWh14bx0qKcNUn9u47raQDpbRCpbwH4m90M6N5h/IZnJ4+C4gKtKA8xFmDlxdIpZv4jIlAyBEEgUkSL/AV9vdvfwhF9Jqk/v2NpLIaRJmIkYCAdVTJoapi0DY5qMCd3HMQMKwj1MQ+E99g6oEhdv7iTBXFy4QYMoEVghHUG/gnFdhTWq8+1KHyMCrcJgj80Qyvp24ltYeWzhrHSD+OoaFpbimF9cxlw0xmF5GNHYCv9bPLfBXPzCsuvBrjVxeeegdFvvozaUi7ID+77JHcz1BUTtLim8CfN6AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;carbon8&quot;
+        title=&quot;carbon8&quot;
+        src=&quot;/static/4300192aeeffe2ebe6da02f4de9a6dea/fcda8/carbon8.png&quot;
+        srcset=&quot;/static/4300192aeeffe2ebe6da02f4de9a6dea/12f09/carbon8.png 148w,
+/static/4300192aeeffe2ebe6da02f4de9a6dea/e4a3f/carbon8.png 295w,
+/static/4300192aeeffe2ebe6da02f4de9a6dea/fcda8/carbon8.png 590w,
+/static/4300192aeeffe2ebe6da02f4de9a6dea/efc66/carbon8.png 885w,
+/static/4300192aeeffe2ebe6da02f4de9a6dea/c83ae/carbon8.png 1180w,
+/static/4300192aeeffe2ebe6da02f4de9a6dea/bc3ae/carbon8.png 1268w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;&lt;sub&gt;&lt;/sub&gt;&lt;/center&gt;
+&lt;h2&gt;8. hg log&lt;/h2&gt;
+&lt;p&gt;This command lists all changes committed to a repository, starting with the most recent commit we made. The listing for each changeset includes the &lt;strong&gt;changeset’s revision number&lt;/strong&gt; and &lt;strong&gt;identifier&lt;/strong&gt;, it’s &lt;strong&gt;tags&lt;/strong&gt;, &lt;strong&gt;bookmarks&lt;/strong&gt;, &lt;strong&gt;the changeset’s author&lt;/strong&gt;, when it was created and summary as shown in the snippet below:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6d20371287705649363b3e2c1c2f2594/29007/carbon.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 35.810810810810814%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAABa0lEQVQoz42PTUsCURSGr1+jjpOWoTaO4+gIIpmfEUFoJP2CoEXRpl+SLs1NVpvKaqN9uSmz2lRSf+y8nbQWEUmLh3Pfy+V57xHdp3e6fHhDpzegy/4Av3n9BwO6fnzDDbtEu/dC25tbWCplKVcsIJ/NIZvJIsczn8ujkC+MpVgsYi6dprX1DVzcv5I4venTPAumnBZy2wQmJBsCPg8m3RJcFgGLGI+NEUJQKpnEefeBxNHFLZWXSjCDIfJ73EjGDcQjKvyKDK/LAYULFKedz9Jwyg7rDxTJDjsLM3MZtK56JI5ZuDi/AJ/DRhK3aQE/9FAAoSkvtOA0ojPBYUHAp2BSdkLmLZz8c5d1hGy3wMrC2VRqJPxcuVJZRUxVKcwi09CRTJiI6REkYsYwm0YUhhZGnO/MqI6opiIW0YZv4px1dYbKyys4Y5fo3D3T3kkbtcYBMajW97FTb6K6+zWZ7/wXtcYhNVsdtNn1AffmBPKMIsteAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;carbon&quot;
+        title=&quot;carbon&quot;
+        src=&quot;/static/6d20371287705649363b3e2c1c2f2594/fcda8/carbon.png&quot;
+        srcset=&quot;/static/6d20371287705649363b3e2c1c2f2594/12f09/carbon.png 148w,
+/static/6d20371287705649363b3e2c1c2f2594/e4a3f/carbon.png 295w,
+/static/6d20371287705649363b3e2c1c2f2594/fcda8/carbon.png 590w,
+/static/6d20371287705649363b3e2c1c2f2594/efc66/carbon.png 885w,
+/static/6d20371287705649363b3e2c1c2f2594/c83ae/carbon.png 1180w,
+/static/6d20371287705649363b3e2c1c2f2594/29007/carbon.png 1600w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;&lt;sub&gt;&lt;/sub&gt;&lt;/center&gt;
+&lt;h2&gt;9. hg pull &amp;#x26;&amp;#x26; hg update —clean&lt;/h2&gt;
+&lt;p&gt;This command is used to pull the latest changes (commits landed on &lt;strong&gt;&lt;em&gt;Mozilla Central&lt;/em&gt;&lt;/strong&gt; between the time when you last updated your local code base and now) and update the working copy of the codebase. Here, &lt;code class=&quot;language-text&quot;&gt;hg pull&lt;/code&gt; pulls all the changes but doesn’t automatically update your working directory with the changes, so we use &lt;code class=&quot;language-text&quot;&gt;hg update --clean&lt;/code&gt; for that purpose.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a7d404b233499d04ff94e374aee294fa/6569d/carbon6.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 36.486486486486484%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAABPklEQVQoz5WOTU/CQBRFx0AprRakUk3du8dCiT/GDRtMESOaFDXRHRvFFfixQXBTFFRiwChEhCga9VddZ4ZGgZ2Lk3tnXnLeI7XHV9y033HX/ULj+RMNlv/kvvfNHcxF6k9vKJaqsLN72NjZhZWxYW3+kXLfqdG/kVkqk+VZKDmotwdU2BnAWt/GkkIQ0KbgIQTeETwTTP4JFEJJprdw2/kAqbb6SKylIXkJwjM+aIoPYUWAFhh2PSTyrock6KpEu4iFWf8vi6oMRSDccfXQZ8IeVhNJSHTLnOJHUBSgin6EAxKm6ZL5oAzZM7xMIOPJ8LkXMkeVCZ3mC+z9HOLmCkwzjljUpNCk3TCiiMWGGYksuxhjnc0Y9kEOzMWFF7UWCuVr5M8qODotcw5PxpPPXPIurB+fX6JYqXGH0+ziB2x3IO01YQlZAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;carbon6&quot;
+        title=&quot;carbon6&quot;
+        src=&quot;/static/a7d404b233499d04ff94e374aee294fa/fcda8/carbon6.png&quot;
+        srcset=&quot;/static/a7d404b233499d04ff94e374aee294fa/12f09/carbon6.png 148w,
+/static/a7d404b233499d04ff94e374aee294fa/e4a3f/carbon6.png 295w,
+/static/a7d404b233499d04ff94e374aee294fa/fcda8/carbon6.png 590w,
+/static/a7d404b233499d04ff94e374aee294fa/efc66/carbon6.png 885w,
+/static/a7d404b233499d04ff94e374aee294fa/c83ae/carbon6.png 1180w,
+/static/a7d404b233499d04ff94e374aee294fa/6569d/carbon6.png 1328w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;&lt;sub&gt;&lt;/sub&gt;&lt;/center&gt;
+&lt;h2&gt;10. hg rebase&lt;/h2&gt;
+&lt;p&gt;This command has many use cases, and rebase allows moving changesets between &lt;strong&gt;branches&lt;/strong&gt;, &lt;strong&gt;reordering changesets&lt;/strong&gt;, or maybe &lt;strong&gt;collapsing changesets&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The different use cases have been depicted in the snippet below:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2f353df83a5ae71c3df0d2ed3c81edf3/d0c2f/carbon7.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 49.32432432432432%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABy0lEQVQoz5WRS09TQRiGp5dz7WnPFQh7l5jYgj+DapUgC4lRQwpqMBqKCxMXblyYuPCSmBBjTbiEasEAAUlpiJd4+VWP35zWgGHVxZPvMjPvvPON2tz/ysfDH7SPfrPV+cWWjgOy3f1Du/MTraVaB994ubLGUuMRdxvLzC8uDcTC/Qb1ew958uxFX/DwO/N3HnDOU3iRIqf+J6vO9k5jCEoYr4yzsXeMWt895sbcAgVbMZK4JL7FUCDEDnFkMxTajAjDUidSx7rWe0qmRJPR0KFoKC5OTPD+0wFqbafL7K06BUcRDbv4RYOwZOEnsjG0iAKbSOogtikJgYgGTh43r1I8M5s6LV8o8661dyJYLCiS0QKhuNMuQi2e2KlT3QskD7w8oZ3Fd7JYGYWd1aIZMmcEb9cpuRk57BIVTWJxFGlReVrii0PPJJR+5BnEEhOhaOVwRMwzc6nDSrnSE9QzvH5zLh2sU5KbTblV5mnKJxluL7dkzVS9qLFPfVi+/ynnx8b+zfCIp89fMTUzS/XqNapXpqnWppnUUZis9ajWTvK07q9fkjOXp2ZYbDymqQXXd7s0219Y2djhzYcWr5ubA9Li7eq2uNtn9XOHv0oheOU1GI5XAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;carbon7&quot;
+        title=&quot;carbon7&quot;
+        src=&quot;/static/2f353df83a5ae71c3df0d2ed3c81edf3/fcda8/carbon7.png&quot;
+        srcset=&quot;/static/2f353df83a5ae71c3df0d2ed3c81edf3/12f09/carbon7.png 148w,
+/static/2f353df83a5ae71c3df0d2ed3c81edf3/e4a3f/carbon7.png 295w,
+/static/2f353df83a5ae71c3df0d2ed3c81edf3/fcda8/carbon7.png 590w,
+/static/2f353df83a5ae71c3df0d2ed3c81edf3/efc66/carbon7.png 885w,
+/static/2f353df83a5ae71c3df0d2ed3c81edf3/c83ae/carbon7.png 1180w,
+/static/2f353df83a5ae71c3df0d2ed3c81edf3/d0c2f/carbon7.png 1362w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;&lt;sub&gt;&lt;/sub&gt;&lt;/center&gt;
+&lt;p&gt;Here, &lt;code class=&quot;language-text&quot;&gt;-s&lt;/code&gt;  flag depicts the &lt;strong&gt;source changesetID&lt;/strong&gt;, &lt;code class=&quot;language-text&quot;&gt;-d&lt;/code&gt; flag tells the &lt;strong&gt;destination changesetID&lt;/strong&gt;. We can use Mercurial tags like &lt;code class=&quot;language-text&quot;&gt;central&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;tip&lt;/code&gt;, etc. in place of &lt;strong&gt;changesetID&lt;/strong&gt; as shown in the snippet above.&lt;/p&gt;
+&lt;h2&gt;11. hg wip&lt;/h2&gt;
+&lt;p&gt;This command gives us a tree view on the &lt;strong&gt;&lt;em&gt;heads/features&lt;/em&gt;&lt;/strong&gt;, and tracks down all the relevant changesets we have created while working on multiple bugs. I’ll highly recommend you to read hg wip command described by &lt;a href=&quot;http://jordi.inversethought.com/blog/customising-mercurial-like-a-pro/&quot;&gt;Customizing Mercurial Like a Pro&lt;/a&gt;. It has so much information packed into such a small space, all color-coded for our convenience.&lt;/p&gt;
+&lt;p&gt;The output of &lt;code class=&quot;language-text&quot;&gt;hg wip&lt;/code&gt; should look similar to the snippet below:&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c4aa170b9b0a01fb641ae192306f802b/d9ed5/hgwip.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 19.594594594594593%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAp0lEQVQY033O0Q6DIAwF0KJMQFkBRUQTk/3/T95V3RIflj2c3LYPbanNGvQiuDxgbTfs+4xtS6hjQkkRcwziyIR1mrDmjGWcUKXOHOCNgSaCEnTQgwVFD+sZlWXp6oRFPVRzKgsjzywZhRw46hLAwcI6hc4QzAelKaBjg94b5KfDmMR4SekSI4PZo+8tuq7FQzfQomnkM0VnflEpVV5VN/Sjp9uc/noD4FBY/fBBt90AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;hgwip&quot;
+        title=&quot;hgwip&quot;
+        src=&quot;/static/c4aa170b9b0a01fb641ae192306f802b/fcda8/hgwip.png&quot;
+        srcset=&quot;/static/c4aa170b9b0a01fb641ae192306f802b/12f09/hgwip.png 148w,
+/static/c4aa170b9b0a01fb641ae192306f802b/e4a3f/hgwip.png 295w,
+/static/c4aa170b9b0a01fb641ae192306f802b/fcda8/hgwip.png 590w,
+/static/c4aa170b9b0a01fb641ae192306f802b/efc66/hgwip.png 885w,
+/static/c4aa170b9b0a01fb641ae192306f802b/c83ae/hgwip.png 1180w,
+/static/c4aa170b9b0a01fb641ae192306f802b/d9ed5/hgwip.png 2880w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;&lt;sub&gt;&lt;/sub&gt;&lt;/center&gt;&lt;br&gt;&lt;br&gt;
+&lt;p&gt;The above mercurial commands are more than enough to know and get the work started.&lt;/p&gt;
+&lt;p&gt;Contribute more, and more to the &lt;a href=&quot;https://codetribute.mozilla.org/&quot;&gt;Firefox&lt;/a&gt; projects, if you need help with anything or messed up, feel free to drop me a message or on the &lt;a href=&quot;https://matrix.to/#/!ykhjAGdElNmYcYkwvB:mozilla.org?via=mozilla.org&amp;#x26;via=matrix.org&amp;#x26;via=privacytools.io&quot;&gt;Introduction&lt;/a&gt; channel. &lt;/p&gt;
+&lt;p&gt;If I missed an important detail or you wish to add anything to this blog post, please feel free to ping me. I look forward to hearing feedback. That’s how we learn 🤗&lt;/p&gt;
+&lt;p&gt;Happy Mercurial !! 😻&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Get the most out of Community Bridge Program]]></title><description><![CDATA[Hello everyone, my name is Sonia 👱‍♀️, and currently, am pursuing my Bachelor’s in Information Technology from Panjab University…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/most-cb-program/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/most-cb-program/</guid><pubDate>Tue, 25 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
@@ -467,7 +946,7 @@ Consider an expression that defines a function named &lt;code class=&quot;langua
 &lt;p&gt;&lt;a href=&quot;https://www.outreachy.org/&quot;&gt;Outreachy&lt;/a&gt; is more than an internship to me. I was never confident about myself, even I was afraid to apply for an internship (I am the luckiest, I did 😌). One of the most important thing that this internship boosts up my self-confident. I am no one afraid to learn new technologies, apply for internships and jobs.&lt;/p&gt;
 &lt;p&gt;Dennis, my &lt;a href=&quot;https://www.outreachy.org/&quot;&gt;Outreachy&lt;/a&gt; mentor has big hand in helping me out through-out the journey. We used to have weekly video call and meetings often. He actually taught me how to write well-structured and quality code. During the internship period, I got a chance to met amazing folks in Mozilla Community, people from other communities, and also made few new friends 🤗&lt;/p&gt;
 &lt;p&gt;Now this internship has been ended, what next? 🤔 After completing my graduation(which is supposed to be completed in May 2021), I want to switch country, looking for new opportunities.&lt;/p&gt;
-&lt;p&gt;Lastly, I want to say thanks to Outreachy[https://www.outreachy.org/] Program, Mozilla, and to my mentor, &lt;a href=&quot;https://schub.wtf/&quot;&gt;Dennis Schubert&lt;/a&gt; ❤️&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Experience as a Mozilla Rep]]></title><description><![CDATA[I joined this program last year and many of you might don’t know about Mozilla Reps Program, check the website. The Mozilla Reps program is…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/experience-mozilla-rep/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/experience-mozilla-rep/</guid><pubDate>Sun, 16 Feb 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I joined this program last year and many of you might don’t know about Mozilla Reps Program, check the &lt;a href=&quot;https://reps.mozilla.org/&quot;&gt;website&lt;/a&gt;. The Mozilla Reps program is open to anyone who is passionate, knowledgeable and willing to help.&lt;/p&gt;
+&lt;p&gt;Lastly, I want to say thanks to &lt;a href=&quot;https://www.outreachy.org/&quot;&gt;Outreachy&lt;/a&gt; Program, Mozilla, and to my mentor, &lt;a href=&quot;https://schub.wtf/&quot;&gt;Dennis Schubert&lt;/a&gt; ❤️&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Experience as a Mozilla Rep]]></title><description><![CDATA[I joined this program last year and many of you might don’t know about Mozilla Reps Program, check the website. The Mozilla Reps program is…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/experience-mozilla-rep/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/experience-mozilla-rep/</guid><pubDate>Sun, 16 Feb 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I joined this program last year and many of you might don’t know about Mozilla Reps Program, check the &lt;a href=&quot;https://reps.mozilla.org/&quot;&gt;website&lt;/a&gt;. The Mozilla Reps program is open to anyone who is passionate, knowledgeable and willing to help.&lt;/p&gt;
 &lt;p&gt;Under the on-boarding process, we took few workshops, organized hackathon and also, interacted with many people online. In the starting phase, very few people knew about Mozilla, their open-source programs, manifesto and products. It was good to see that many people joined the workshop and were eager to learn.&lt;/p&gt;
 &lt;p&gt;I organized few events and if anyone wants to know more about the events, they can check &lt;a href=&quot;https://reps.mozilla.org/u/soniasingla/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;It is a good experience till now, and am looking forward to organize more events in future, make connections with fellow reps and teach the world 🙂&lt;/p&gt;
