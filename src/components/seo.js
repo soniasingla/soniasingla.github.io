@@ -29,6 +29,8 @@ const SEO = ({ description, lang, meta, title }) => {
 
   const metaDescription = description || site.siteMetadata.description
 
+  const monetization = '$ilp.uphold.com/i3rLUpU3gRp8'
+
   return (
     <Helmet
       htmlAttributes={{
@@ -64,6 +66,10 @@ const SEO = ({ description, lang, meta, title }) => {
         {
           name: `twitter:title`,
           content: title,
+        },
+        {
+          name: `monetization`,
+          content: monetization,
         },
         {
           name: `twitter:description`,
