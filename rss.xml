@@ -1,4 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sonia Singla]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 20 Sep 2020 17:18:50 GMT</lastBuildDate><item><title><![CDATA[Mercurial Guide for Firefox Workflow]]></title><description><![CDATA[To collaborate with the other developers on a project around the world, all the programmers need some kind of  to manage the source code…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/firefox-mercurial/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/firefox-mercurial/</guid><pubDate>Tue, 08 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Sonia Singla]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 06 Oct 2020 19:40:25 GMT</lastBuildDate><item><title><![CDATA[How to customize Oh My Zsh with Auto-Suggestions and Syntax Highlighting?]]></title><description><![CDATA[As a developer, we spend a lot of time working on the terminal and having personalized shell makes the working environment perfect…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/auto-suggestions-and-syntax-highlighting/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/auto-suggestions-and-syntax-highlighting/</guid><pubDate>Tue, 06 Oct 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4d418a1a3cd21c9e463202e015c97869/203d3/code.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 45.94594594594595%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsTAAALEwEAmpwYAAABqklEQVQoz3VR20vCYBT37+rJh14Ki4gsnYrTzeVtq6ALRGChWyhFF+yG0VsvPZRFpVJRIERXqBC6IGRUNGuBZLqNtm99a44g6PDjcDjf78fvnPMZlH/jSwMAoiRXYdY7kqIAjWEAPwX3JpXLkihCwGcltXUUGtqIje5EmUx4eGtwIAlzlNmBHSaylto+hhwAgKHm8iUDILMv0mdZFcenDprq8x676LbyELhNxBBYVAiH4Oxg45NZyJFl3bnIypVKbZ7DTIpwTTvMz5iNI3GJ8igUrvjQdzdyhdtzlpa7xNwZZKpizVkQZFFQPXmudLqyTiBTKPJIep5Qy7MX5UlM8bsEzJbH7deONnZh9qTmrInBzwAfpdJIH4MRY6bGmc0kV63yPX7W2VH0obzq7wHdnYrbWk3Mn/2KX9+4wv3D5UXO7epurGswN/uMxlFmJJdcvXG0X5mbLtubz5HWW9RShIuYTYXx2C68ObTTxO8xemJpcTmd3t/by4ZCYxQZ9ntpLxEh/TQVjJDBMBkIUyTdRTHBAN3fG2VfXtWv0q8taZPrAWv5D4AOGBr3GxujoPM/mKiuAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;code&quot;
+        title=&quot;code&quot;
+        src=&quot;/static/4d418a1a3cd21c9e463202e015c97869/fcda8/code.png&quot;
+        srcset=&quot;/static/4d418a1a3cd21c9e463202e015c97869/12f09/code.png 148w,
+/static/4d418a1a3cd21c9e463202e015c97869/e4a3f/code.png 295w,
+/static/4d418a1a3cd21c9e463202e015c97869/fcda8/code.png 590w,
+/static/4d418a1a3cd21c9e463202e015c97869/efc66/code.png 885w,
+/static/4d418a1a3cd21c9e463202e015c97869/c83ae/code.png 1180w,
+/static/4d418a1a3cd21c9e463202e015c97869/203d3/code.png 1322w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;&lt;sub&gt;&lt;sup&gt;[Img src: https://undraw.co/illustrations]&lt;/sup&gt;&lt;/sub&gt;&lt;/center&gt;&lt;br&gt;
+&lt;p&gt;As a developer, we spend a lot of time working on the terminal and having personalized shell makes the working environment perfect, decreases frustration and also, increases productivity.&lt;/p&gt;
+&lt;p&gt;In this blog, we will discuss how to quickly install plugins &lt;code class=&quot;language-text&quot;&gt;Auto-Suggestions&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;Syntax Highlighting&lt;/code&gt; in the &lt;code class=&quot;language-text&quot;&gt;oh-my-zsh&lt;/code&gt; theme.&lt;/p&gt;
+&lt;h2&gt;Install Oh-My-Zsh using Curl:&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sh&lt;/span&gt; -c &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;NOTE: &lt;code class=&quot;language-text&quot;&gt;ZSH&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;OhMyZsh&lt;/code&gt; both are different.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let’s take a look how to install plugins, and configure &lt;code class=&quot;language-text&quot;&gt;Zsh&lt;/code&gt;:&lt;/p&gt;
+&lt;h2&gt;Install zsh-autosuggestions by running:&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone https://github.com/zsh-users/zsh-autosuggestions.git &lt;span class=&quot;token variable&quot;&gt;$ZSH_CUSTOM&lt;/span&gt;/plugins/zsh-autosuggestions&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Install zsh-syntax-highlighting by running:&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone https://github.com/zsh-users/zsh-syntax-highlighting.git &lt;span class=&quot;token variable&quot;&gt;$ZSH_CUSTOM&lt;/span&gt;/plugins/zsh-syntax-highlighting&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;Now, open &lt;code class=&quot;language-text&quot;&gt;.zshrc&lt;/code&gt; file with your favourite editor:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;nano&lt;/span&gt; ~/.zshrc&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;And simply add &lt;code class=&quot;language-text&quot;&gt;zsh-autosuggestions&lt;/code&gt; &amp;#x26; &lt;code class=&quot;language-text&quot;&gt;zsh-syntax-highlighting&lt;/code&gt; to &lt;code class=&quot;language-text&quot;&gt;plugins()&lt;/code&gt; section, it will do the magic for you:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token assign-left variable&quot;&gt;plugins&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;git zsh-autosuggestions zsh-syntax-highlighting&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;Reopen terminal to reconfigure the settings and Voila! 🎉&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mercurial Guide for Firefox Workflow]]></title><description><![CDATA[To collaborate with the other developers on a project around the world, all the programmers need some kind of  to manage the source code…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/firefox-mercurial/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/firefox-mercurial/</guid><pubDate>Tue, 08 Sep 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
